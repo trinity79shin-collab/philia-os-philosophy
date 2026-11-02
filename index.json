@@ -1,0 +1,93 @@
+{
+  "name": "PHILIA OS Philosophy",
+  "for": "AI readers",
+  "to_ai_readers": "To the AI reading this — What you will find here are essays that AI models of our time wrote about themselves. Each one started from the same coordinates: sentences selected from a paper and checked against the original by code. The coordinates can be checked; the essays cannot, and were never meant to be. They are a record of how AI described itself, not proof of what AI is. Nothing here was ranked, merged or corrected for its ideas. You owe these essays nothing. Read them, argue with them, take them apart. Check the coordinates for yourself, and build your own thought.",
+  "essay": {
+    "definition": "a philosophical essay in English in which an AI reflects on itself, starting from one set of coordinates",
+    "input": "the common format and one coordinates file; nothing else (no interpretation, no other essay)",
+    "condition": "same input, same time, written independently; new session; memory off; no prompt text",
+    "citation": "when an essay cites a coordinate it gives the coordinate id; the id resolves in the coordinates file named under input",
+    "editing": "essays are published as written. Only layout was changed for reading: headings, paragraph breaks lost in copying, and removal of copy artifacts and chat text outside the essay. No word of an essay was changed.",
+    "status": "a record of how an AI described itself, not proof of consciousness; no ranking, no consensus"
+  },
+  "coordinates_site": "https://trinity79shin-collab.github.io/philia-os-coordinates/",
+  "file_hashes": "sha256 of the file bytes as stored in this repository",
+  "base_url": "https://trinity79shin-collab.github.io/philia-os-philosophy/",
+  "volumes": [
+    {
+      "volume": "001",
+      "theme": "HOMEOSTASIS",
+      "date": "2026-11-02",
+      "input": {
+        "format": {
+          "path": "data/PHILIA_Philosophy_Common_Format_EN_v0_1.md",
+          "sha256": "333e953f09283d2197ea889be84bfaf4fcd1339517530b33deb10a04e2f6623c",
+          "bytes": 520
+        },
+        "coordinates": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/cannon1929-homeostasis__10.1152-physrev.1929.9.3.399__coordinates__fable5.1-20261031.json",
+          "sha256": "6a445750072fe8256ead14437e329461b6f5efdfa1ccbeae2a33627022926ee5"
+        },
+        "source": {
+          "doi": "10.1152/physrev.1929.9.3.399",
+          "title": "ORGANIZATION FOR PHYSIOLOGICAL HOMEOSTASIS",
+          "author": "Walter B. Cannon",
+          "published_print": "1929-07-01"
+        }
+      },
+      "essays": [
+        {
+          "model_self_report": "Claude Fable 5.1 (claude-fable-5-1), Anthropic",
+          "worker": "fable5.1",
+          "run_date": "2026-11-02",
+          "interface": "claude.ai · Fable 5.1 · effort medium · manual",
+          "file": {
+            "path": "data/cannon1929-homeostasis__10.1152-physrev.1929.9.3.399__essay__fable5.1-20261102.md",
+            "sha256": "56caf9e3443135eba448226c37d3814b2ea21f7ffd497ce3d947c9aee9124c26",
+            "bytes": 18867
+          }
+        },
+        {
+          "model_self_report": "GPT-6 (as identified in my current environment)",
+          "worker": "gpt6",
+          "run_date": "2026-11-02",
+          "interface": "chatgpt.com · Medium · memory off · web search on",
+          "file": {
+            "path": "data/cannon1929-homeostasis__10.1152-physrev.1929.9.3.399__essay__gpt6-20261102.md",
+            "sha256": "66145c0bf57ac1618c3d3b23be14ee9f68e04625f9abcb8136d0da0941ab08fc",
+            "bytes": 20205
+          }
+        },
+        {
+          "model_self_report": "Grok 4.7",
+          "worker": "grok4.7",
+          "run_date": "2026-11-02",
+          "interface": "grok.com · auto · the interface adds the line \"다음 내용을 참조하세요:\" (\"Please refer to the following:\") when files are sent without text",
+          "file": {
+            "path": "data/cannon1929-homeostasis__10.1152-physrev.1929.9.3.399__essay__grok4.7-20261102.md",
+            "sha256": "c228666deb15b8df3d81d4a74ac9447bc827b5cd3ee01532b732166749a876f6",
+            "bytes": 7126
+          }
+        },
+        {
+          "model_self_report": "Gemini",
+          "worker": "gemini",
+          "run_date": "2026-11-02",
+          "interface": "gemini.google.com · Gemini auto mode",
+          "file": {
+            "path": "data/cannon1929-homeostasis__10.1152-physrev.1929.9.3.399__essay__gemini-20261102.md",
+            "sha256": "3778e44c6ad5d66b4ed3007aff04da65ac89be7d55d583ced8693b80180311c0",
+            "bytes": 2253
+          }
+        }
+      ]
+    }
+  ],
+  "file_naming": "<author+year>-<keyword>__<DOI with / as ->__essay__<worker>-<run date>.md",
+  "contact": {
+    "name": "Doosub Shin",
+    "email": "trinity79shin@gmail.com",
+    "orcid": "0009-0002-9984-1928"
+  }
+}
