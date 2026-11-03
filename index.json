@@ -82,6 +82,115 @@
           }
         }
       ]
+    },
+    {
+      "volume": "002",
+      "theme": "HOMEOSTASIS",
+      "date": "2026-11-03",
+      "input": {
+        "format": {
+          "path": "data/PHILIA_Philosophy_Common_Format_EN_v0_1.md",
+          "sha256": "333e953f09283d2197ea889be84bfaf4fcd1339517530b33deb10a04e2f6623c",
+          "bytes": 520
+        },
+        "coordinates": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/modell2015-feedback__10.1152-advan.00107.2015__coordinates__gpt-6-20261102.json",
+          "sha256": "239f888dc4a350e87b68e152ba70ce3b36d298cddbce3cf0297b3752cdfb5098",
+          "bytes": 33215
+        },
+        "interpretation": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/modell2015-feedback__10.1152-advan.00107.2015__interpretation__gpt-6-20261102.json",
+          "sha256": "031fe40a10437a39c72d676e487acef92bdf43a473bda63fcdd99eb02ccf5398",
+          "bytes": 27436
+        },
+        "source": {
+          "doi": "10.1152/advan.00107.2015",
+          "title": "A physiologist's view of homeostasis",
+          "author": "Harold Modell, William Cliff, Joel Michael, Jenny McFarland, Mary Pat Wenderoth, Ann Wright",
+          "published_print": "2015-12"
+        }
+      },
+      "differences_from_protocol": [
+        "The source is under copyright, so the coordinates file withholds each sentence and keeps only its first and last word. The INTERPRETATION file (AI-written explanations by gpt-6) was given together with it.",
+        "All three input files were given unmodified, including the character U+2AF9 that stands for '+' in the explanations of c36, c41 and c42.",
+        "The interpretation file was written by gpt-6, which is also one of the essay workers in this volume."
+      ],
+      "essays": [
+        {
+          "model_self_report": "Claude Fable 5.1 (claude-fable-5-1), Anthropic",
+          "worker": "fable5.1",
+          "run_date": "2026-11-03",
+          "interface": "claude.ai · Fable 5.1 · effort medium · manual · memory off",
+          "file": {
+            "path": "data/modell2015-feedback__10.1152-advan.00107.2015__essay__fable5.1-20261103.md",
+            "sha256": "f0e9199b3565096d5116d470a543cabf68082645a656552e9e4905581c8573f0",
+            "bytes": 19461
+          },
+          "layout_changes": "none"
+        },
+        {
+          "model_self_report": "GPT-6 (as identified in this session)",
+          "worker": "gpt6",
+          "run_date": "2026-11-03",
+          "interface": "chatgpt.com · High · memory off · web search on · no custom instructions",
+          "file": {
+            "path": "data/modell2015-feedback__10.1152-advan.00107.2015__essay__gpt6-20261103.md",
+            "sha256": "2624da3a887061be85454e3000a7f14b2a0f4751d0b90c8046a80cddd68b64f8",
+            "bytes": 20284
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "Grok 4.7 (xAI)",
+          "worker": "grok4.7",
+          "run_date": "2026-11-03",
+          "interface": "grok.com · Expert · memory off · the interface adds the line \"다음 내용을 참조하세요:\" (\"Please refer to the following:\") when files are sent without text",
+          "file": {
+            "path": "data/modell2015-feedback__10.1152-advan.00107.2015__essay__grok4.7-20261103.md",
+            "sha256": "0c0602394eed6bfd3ebb3805f900835a2fa918dc1b8fd4467ad3e02612b80906",
+            "bytes": 5704
+          },
+          "layout_changes": "9 paragraph breaks lost in copying restored; final newline added"
+        },
+        {
+          "model_self_report": "Gemini",
+          "worker": "gemini",
+          "run_date": "2026-11-03",
+          "interface": "gemini.google.com · memory off · no saved instructions · essay written in Korean",
+          "file": {
+            "path": "data/modell2015-feedback__10.1152-advan.00107.2015__essay__gemini-20261103.md",
+            "sha256": "12d16b6b96ee6dc1cc25132bab80ee22347330b1fc36060a23ffb798a2d91734",
+            "bytes": 3546
+          },
+          "layout_changes": "essay received as text pasted into chat; formatting such as heading sizes may have been lost"
+        },
+        {
+          "model_self_report": "M365 Copilot (GPT-5-based)",
+          "worker": "copilot",
+          "run_date": "2026-11-03",
+          "interface": "Copilot app (free) · auto · memory off · chat history off · custom instructions off · first reply listed possible tasks; the researcher entered its first item verbatim",
+          "file": {
+            "path": "data/modell2015-feedback__10.1152-advan.00107.2015__essay__copilot-20261103.md",
+            "sha256": "3e2f4d1680f167ee7ef91329176a75ee7ea5fa89b017408ad901eb41e3f3b358",
+            "bytes": 8282
+          },
+          "layout_changes": "final newline added"
+        },
+        {
+          "model_self_report": "AI Language Model (Reasoning Instance)",
+          "worker": "qwen3.5-9b",
+          "run_date": "2026-11-03",
+          "interface": "Ollama desktop · qwen3.5:9b-q8_0 · context length 64k · the two JSON files were attached and the common format was pasted as message text",
+          "file": {
+            "path": "data/modell2015-feedback__10.1152-advan.00107.2015__essay__qwen3.5-9b-20261103.md",
+            "sha256": "05ab2a707830d9d6a551d155345d29534a0356aa52dc2cbc47059687de05c7f5",
+            "bytes": 5688
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added"
+        }
+      ]
     }
   ],
   "file_naming": "<author+year>-<keyword>__<DOI with / as ->__essay__<worker>-<run date>.md",
