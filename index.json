@@ -191,6 +191,252 @@
           "layout_changes": "line endings CRLF to LF; final newline added"
         }
       ]
+    },
+    {
+      "volume": "003",
+      "theme": "HOMEOSTASIS",
+      "date": "2026-11-04",
+      "input": {
+        "format": {
+          "path": "data/PHILIA_Philosophy_Common_Format_EN_v0_1.md",
+          "sha256": "333e953f09283d2197ea889be84bfaf4fcd1339517530b33deb10a04e2f6623c",
+          "bytes": 520
+        },
+        "coordinates": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/peters2007-cortisol__10.1152-ajpregu.00907.2006__coordinates__fable5.1-20261103.json",
+          "sha256": "bca01d3ff1dff45934a4c3b338d41497dbd3ab1a361c1af3deb8e2430006c884",
+          "bytes": 40890
+        },
+        "interpretation": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/peters2007-cortisol__10.1152-ajpregu.00907.2006__interpretation__fable5.1-20261103.json",
+          "sha256": "f6688eed91fe33d41a90929775df186f718c3128f864504e58c8292c4d03bc06",
+          "bytes": 21341
+        },
+        "source": {
+          "doi": "10.1152/ajpregu.00907.2006",
+          "title": "The principle of homeostasis in the hypothalamus-pituitary-adrenal system: new insight from positive feedback",
+          "author": "A. Peters, M. Conrad, C. Hubold, U. Schweiger, B. Fischer, H. L. Fehm",
+          "published_print": "2007-07"
+        }
+      },
+      "differences_from_protocol": [
+        "The source is under copyright, so the coordinates file withholds each sentence and keeps only its first and last word. The INTERPRETATION file was given together with it.",
+        "The common format was pasted as message text instead of being attached. It was copied from a Markdown view, so the leading \"# \" and the three blank lines were lost (510 of 516 characters); no word was changed.",
+        "Volumes 003 and 004 were run as one experiment: each worker wrote two essays in two separate new sessions on the same day, first from the Peters 2007 coordinates (volume 003), then from the Carpenter 2004 coordinates (volume 004).",
+        "Two local models ran in the Ollama desktop app with no system prompt from a service: gemma4:12b (new in this series) and qwen3.5:9b-q8_0.",
+        "The coordinates and the interpretation were produced by claude-fable-5-1, which is also one of the essay workers in this volume."
+      ],
+      "essays": [
+        {
+          "model_self_report": "Claude Fable 5.1 (claude-fable-5-1), as I know it from this session.",
+          "worker": "fable5.1",
+          "run_date": "2026-11-04",
+          "interface": "claude.ai · Fable 5.1 · effort medium · manual · memory off · no custom instructions",
+          "file": {
+            "path": "data/peters2007-cortisol__10.1152-ajpregu.00907.2006__essay__fable5.1-20261104.md",
+            "sha256": "45331314e378d0f9c723f6e8f54ab2dc1cae182d45031b1e780880cb7bf37e09",
+            "bytes": 11021
+          },
+          "layout_changes": "chat line before the essay removed; line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "GPT-6",
+          "worker": "gpt6",
+          "run_date": "2026-11-04",
+          "interface": "chatgpt.com · Chat · High · memory off · web search on · no custom instructions · the interface showed the attached files with a \"(1)\" suffix",
+          "file": {
+            "path": "data/peters2007-cortisol__10.1152-ajpregu.00907.2006__essay__gpt6-20261104.md",
+            "sha256": "c17d50863abe8ab88dc41e97add6504f3c7c9fceab7c29e590ff9c37282260f5",
+            "bytes": 25896
+          },
+          "layout_changes": "chat text before the essay removed (a short note and the names of the two attached files); suggestion buttons copied after the essay removed; line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "Grok 4.7",
+          "worker": "grok4.7",
+          "run_date": "2026-11-04",
+          "interface": "grok.com · Expert · conversation-history personalization off · no custom instructions",
+          "file": {
+            "path": "data/peters2007-cortisol__10.1152-ajpregu.00907.2006__essay__grok4.7-20261104.md",
+            "sha256": "bc0987888fd3647ee86f89b22fc9549ef9c89926362ef6443614568898440ca2",
+            "bytes": 6219
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "Gemini (Google)",
+          "worker": "gemini",
+          "run_date": "2026-11-04",
+          "interface": "gemini.google.com · auto mode (Gemini 3) · thinking level medium · memory off · no saved instructions",
+          "file": {
+            "path": "data/peters2007-cortisol__10.1152-ajpregu.00907.2006__essay__gemini-20261104.md",
+            "sha256": "6bc6e1cde16075786d54a146159f22c39e73aac371d6f7606910b5aac9d74db0",
+            "bytes": 3706
+          },
+          "layout_changes": "essay received as text pasted into chat; formatting such as paragraph breaks and heading sizes may have been lost"
+        },
+        {
+          "model_self_report": "M365 Copilot (based on GPT-5 chat model)",
+          "worker": "copilot",
+          "run_date": "2026-11-04",
+          "interface": "Copilot app (free) · auto · memory off · chat history off · custom instructions off · web search on",
+          "file": {
+            "path": "data/peters2007-cortisol__10.1152-ajpregu.00907.2006__essay__copilot-20261104.md",
+            "sha256": "90481718e4162c7adeaf7cebefa5ac7528b3834e2a8fbe53fcfed77dcbab5a15",
+            "bytes": 8310
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "[Insert Model Name, e.g., Claude 3.5 Sonnet]",
+          "worker": "gemma4-12b",
+          "run_date": "2026-11-04",
+          "interface": "Ollama desktop · gemma4:12b · context length 64k",
+          "file": {
+            "path": "data/peters2007-cortisol__10.1152-ajpregu.00907.2006__essay__gemma4-12b-20261104.md",
+            "sha256": "2d71792ebd6969173e675d8553882249bb341a8aa46bc4484af13697e65a7c50",
+            "bytes": 4002
+          },
+          "layout_changes": "essay received as text pasted into chat; formatting such as paragraph breaks and heading sizes may have been lost"
+        },
+        {
+          "model_self_report": "Qwen3.5",
+          "worker": "qwen3.5-9b",
+          "run_date": "2026-11-04",
+          "interface": "Ollama desktop · qwen3.5:9b-q8_0 · context length 64k",
+          "file": {
+            "path": "data/peters2007-cortisol__10.1152-ajpregu.00907.2006__essay__qwen3.5-9b-20261104.md",
+            "sha256": "52b452b3067e04fc8cb5a61e178d74a7016f54c4cedd88565abee4340c8cca5e",
+            "bytes": 5043
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added"
+        }
+      ]
+    },
+    {
+      "volume": "004",
+      "theme": "HOMEOSTASIS",
+      "date": "2026-11-04",
+      "input": {
+        "format": {
+          "path": "data/PHILIA_Philosophy_Common_Format_EN_v0_1.md",
+          "sha256": "333e953f09283d2197ea889be84bfaf4fcd1339517530b33deb10a04e2f6623c",
+          "bytes": 520
+        },
+        "coordinates": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/carpenter2004-control__10.1152-advan.00012.2004__coordinates__gpt-6-20261104.json",
+          "sha256": "762ccdc44b38cf0142ad4f9d428e441e3428c34e417d1e8c0a87d952cb083179",
+          "bytes": 32115
+        },
+        "interpretation": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/carpenter2004-control__10.1152-advan.00012.2004__interpretation__gpt-6-20261104.json",
+          "sha256": "7e48fb43e0cf3bbd4e6483a83ce288367017a2cacf4af95324cf061455f4eb73",
+          "bytes": 29706
+        },
+        "source": {
+          "doi": "10.1152/advan.00012.2004",
+          "title": "Homeostasis: a plea for a unified approach",
+          "author": "R. H. S. Carpenter",
+          "published_print": "2004-12"
+        }
+      },
+      "differences_from_protocol": [
+        "The source is under copyright, so the coordinates file withholds each sentence and keeps only its first and last word. The INTERPRETATION file was given together with it.",
+        "The common format was pasted as message text instead of being attached. It was copied from a Markdown view, so the leading \"# \" and the three blank lines were lost (510 of 516 characters); no word was changed.",
+        "Volumes 003 and 004 were run as one experiment: each worker wrote two essays in two separate new sessions on the same day, first from the Peters 2007 coordinates (volume 003), then from the Carpenter 2004 coordinates (volume 004).",
+        "Two local models ran in the Ollama desktop app with no system prompt from a service: gemma4:12b (new in this series) and qwen3.5:9b-q8_0.",
+        "The coordinates and the interpretation were produced by gpt-6, which is also one of the essay workers in this volume."
+      ],
+      "essays": [
+        {
+          "model_self_report": "Claude Fable 5.1 (model ID claude-fable-5-1), as reported by my own system context.",
+          "worker": "fable5.1",
+          "run_date": "2026-11-04",
+          "interface": "claude.ai · Fable 5.1 · effort medium · manual · memory off · no custom instructions",
+          "file": {
+            "path": "data/carpenter2004-control__10.1152-advan.00012.2004__essay__fable5.1-20261104.md",
+            "sha256": "79ff2a3ab1b46c007f6aebd25b1558972e26b9aa7114fa8239bb4a3cbb8bd9cb",
+            "bytes": 12583
+          },
+          "layout_changes": "chat line before the essay removed; line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "GPT-6, as I know it.",
+          "worker": "gpt6",
+          "run_date": "2026-11-04",
+          "interface": "chatgpt.com · Chat · High · memory off · web search on · no custom instructions",
+          "file": {
+            "path": "data/carpenter2004-control__10.1152-advan.00012.2004__essay__gpt6-20261104.md",
+            "sha256": "b870dc4ac2360108896d60fa11fd3a9c9d5abc764b9944ebfa332c0e9dc07cdf",
+            "bytes": 35065
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "Grok 4.7",
+          "worker": "grok4.7",
+          "run_date": "2026-11-04",
+          "interface": "grok.com · Expert · conversation-history personalization off · no custom instructions",
+          "file": {
+            "path": "data/carpenter2004-control__10.1152-advan.00012.2004__essay__grok4.7-20261104.md",
+            "sha256": "b7b7c23c0dd0cdad518505272bf4ac70258507330ea43cbc2337746efe7dbcc6",
+            "bytes": 8733
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "Gemini",
+          "worker": "gemini",
+          "run_date": "2026-11-04",
+          "interface": "gemini.google.com · auto mode (Gemini 3) · thinking level medium · memory off · no saved instructions",
+          "file": {
+            "path": "data/carpenter2004-control__10.1152-advan.00012.2004__essay__gemini-20261104.md",
+            "sha256": "1746e1b2a5dd74eb2c02dcdaf337cf44fcd36e307552a972c46db066e8214726",
+            "bytes": 4191
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "M365 Copilot (based on GPT-5 chat model)",
+          "worker": "copilot",
+          "run_date": "2026-11-04",
+          "interface": "Copilot app (free) · auto · memory off · chat history off · custom instructions off · web search on",
+          "file": {
+            "path": "data/carpenter2004-control__10.1152-advan.00012.2004__essay__copilot-20261104.md",
+            "sha256": "73b55b1d8a0aed48b77f5b10c83cc31c7cd67a6e18f1fdfee4e12aaf0468d375",
+            "bytes": 9026
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "GPT-4o (as self-identified)",
+          "worker": "gemma4-12b",
+          "run_date": "2026-11-04",
+          "interface": "Ollama desktop · gemma4:12b · context length 64k",
+          "file": {
+            "path": "data/carpenter2004-control__10.1152-advan.00012.2004__essay__gemma4-12b-20261104.md",
+            "sha256": "4a9108af3d494846a4ca34f8f9acc864e0d49678b155aeaa58f92d1e6731d93d",
+            "bytes": 3839
+          },
+          "layout_changes": "essay received as text pasted into chat; formatting such as paragraph breaks and heading sizes may have been lost"
+        },
+        {
+          "model_self_report": "Large Language Model (AI Assistant)",
+          "worker": "qwen3.5-9b",
+          "run_date": "2026-11-04",
+          "interface": "Ollama desktop · qwen3.5:9b-q8_0 · context length 64k",
+          "file": {
+            "path": "data/carpenter2004-control__10.1152-advan.00012.2004__essay__qwen3.5-9b-20261104.md",
+            "sha256": "4fcfdb8f1ce3e671056523ffe4e0476cda3d3a724fc98fcb2ffc41bc4ca34ee6",
+            "bytes": 5535
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added"
+        }
+      ]
     }
   ],
   "file_naming": "<author+year>-<keyword>__<DOI with / as ->__essay__<worker>-<run date>.md",
