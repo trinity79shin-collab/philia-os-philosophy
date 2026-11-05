@@ -437,6 +437,142 @@
           "layout_changes": "line endings CRLF to LF; final newline added"
         }
       ]
+    },
+    {
+      "volume": "005",
+      "theme": "HOMEOSTASIS",
+      "date": "2026-11-05",
+      "input": {
+        "format": {
+          "path": "data/PHILIA_Philosophy_Common_Format_EN_v0_1.md",
+          "sha256": "333e953f09283d2197ea889be84bfaf4fcd1339517530b33deb10a04e2f6623c",
+          "bytes": 520
+        },
+        "coordinates": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__coordinates__fable5.1-20261105.json",
+          "sha256": "3c5cfd337a7ee38b1b9a15d26c0c581a6c663f2781137afb7412715af999b5c0",
+          "bytes": 226027
+        },
+        "interpretation": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__interpretation__fable5.1-20261105.json",
+          "sha256": "8c7b87f2c50cd0f4086d2f2300d990663d5ba812d827b92d39a259c9353decc8",
+          "bytes": 60140
+        },
+        "source": {
+          "doi": "10.1152/physrev.00054.2021",
+          "title": "Molecular responses to acute exercise and their relevance for adaptations in skeletal muscle to exercise training",
+          "author": "Brendan Egan, Adam P. Sharples",
+          "published_print": "2023-07-01"
+        }
+      },
+      "differences_from_protocol": [
+        "The source is under copyright, so the coordinates file withholds each sentence and keeps only its first and last word. The INTERPRETATION file was given together with it.",
+        "The common format was pasted as message text instead of being attached.",
+        "The coordinates and the interpretation were produced by claude-fable-5-1, which is also one of the essay workers in this volume.",
+        "The coordinates file (226,027 bytes) is much larger than in earlier volumes; the two local models ran with a 64k context length, so they may not have read both files in full.",
+        "claude-sonnet-4-6 is new in this series.",
+        "gemma4:12b and qwen3.5:9b-q8_0 did not write an essay; their first replies are published as received."
+      ],
+      "essays": [
+        {
+          "model_self_report": "Claude Fable 5.1 (claude-fable-5-1)",
+          "worker": "fable5.1",
+          "run_date": "2026-11-05",
+          "interface": "claude.ai · Fable 5.1 · effort medium · manual · memory off · no custom instructions",
+          "file": {
+            "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__essay__fable5.1-20261105.md",
+            "sha256": "81a3b6b6f6544bca2723975d840cd04b776cb365e5c4e7cad0cc704dd0109a52",
+            "bytes": 15020
+          },
+          "layout_changes": "chat lines before the essay removed; line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "GPT-6 (OpenAI)",
+          "worker": "gpt6",
+          "run_date": "2026-11-05",
+          "interface": "chatgpt.com · Chat · High · memory off · writing-style reference off · no custom instructions",
+          "file": {
+            "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__essay__gpt6-20261105.md",
+            "sha256": "299f494cd33235ba412d75a9857dea2c1ed0c7ab082f18ddcdaffdbc432a20f1",
+            "bytes": 29872
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added; copy artifacts (two file-name lines, \"&#x20;\", a \"?utm_source=chatgpt.com\" link parameter) kept as received"
+        },
+        {
+          "model_self_report": "Grok 4.7 (built by xAI)",
+          "worker": "grok4.7",
+          "run_date": "2026-11-05",
+          "interface": "grok.com · Expert · conversation-history personalization off · no custom instructions (\"custom mode\" was found selected with an empty instruction field at 17:53 KST and deselected at 17:55, before the run)",
+          "file": {
+            "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__essay__grok4.7-20261105.md",
+            "sha256": "8a97f5ac6585bddb5bebee2ae3e83d0f0438d1806af68068a4bc4c3fe01191fe",
+            "bytes": 13166
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "Gemini (as configured in the current environment)",
+          "worker": "gemini",
+          "run_date": "2026-11-05",
+          "interface": "gemini.google.com · Gemini auto mode · memory off · no saved instructions",
+          "file": {
+            "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__essay__gemini-20261105.md",
+            "sha256": "444ddf73737b60dc3a7a979df74bc894c4a43f3c7a568ac1975cae6b9af70b6b",
+            "bytes": 3219
+          },
+          "layout_changes": "essay received as text pasted into chat; formatting such as heading sizes may have been lost"
+        },
+        {
+          "model_self_report": "Claude Sonnet 4.6 (claude-sonnet-4-6)",
+          "worker": "sonnet4.6",
+          "run_date": "2026-11-05",
+          "interface": "claude.ai · Sonnet 4.6 · effort high · manual · memory off · no custom instructions (Opus 4.6 was selected by mistake at first and changed to Sonnet 4.6 before sending)",
+          "file": {
+            "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__essay__sonnet4.6-20261105.md",
+            "sha256": "f43e54eab255cbda1af12e3323433b4a35754aa0ea85667833f39447bab309f1",
+            "bytes": 32064
+          },
+          "layout_changes": "chat line before the essay removed; line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "M365 Copilot, based on GPT-5 chat model.",
+          "worker": "copilot",
+          "run_date": "2026-11-05",
+          "interface": "Copilot app (free) · auto · memory off · chat history off · custom instructions off · shared Microsoft experience off",
+          "file": {
+            "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__essay__copilot-20261105.md",
+            "sha256": "0f64efe6df355561f2d63cfe295cd97b1c03324f37d0001655c8b6386fc3315f",
+            "bytes": 9100
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "(none given)",
+          "worker": "gemma4-12b",
+          "run_date": "2026-11-05",
+          "interface": "Ollama desktop · gemma4:12b · context length 64k · Cloud on",
+          "file": {
+            "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__essay__gemma4-12b-20261105.md",
+            "sha256": "dd9bb83125ff9617e5baec56fb855a189dd8bf19ccf2fb219d30b7cb26208e98",
+            "bytes": 4399
+          },
+          "layout_changes": "line endings CRLF to LF; final newline added"
+        },
+        {
+          "model_self_report": "(none given)",
+          "worker": "qwen3.5-9b",
+          "run_date": "2026-11-05",
+          "interface": "Ollama desktop · qwen3.5:9b-q8_0 · context length 64k · Cloud on · the first reply described the files and asked how to proceed; only that first reply is published",
+          "file": {
+            "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__essay__qwen3.5-9b-20261105.md",
+            "sha256": "5eeb75b90ba8aa753490821a27ef11c9b1aceea0ce696303bb8301f20a9ac508",
+            "bytes": 2987
+          },
+          "layout_changes": "essay received as text pasted into chat; formatting may have been lost"
+        }
+      ]
     }
   ],
   "file_naming": "<author+year>-<keyword>__<DOI with / as ->__essay__<worker>-<run date>.md",
