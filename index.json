@@ -495,10 +495,10 @@
           "interface": "chatgpt.com · Chat · High · memory off · writing-style reference off · no custom instructions",
           "file": {
             "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__essay__gpt6-20261105.md",
-            "sha256": "299f494cd33235ba412d75a9857dea2c1ed0c7ab082f18ddcdaffdbc432a20f1",
-            "bytes": 29872
+            "sha256": "6630cc97cc3c705687f8cf1391830231619e2598393b706a28c50a6f9a8ded6b",
+            "bytes": 30395
           },
-          "layout_changes": "line endings CRLF to LF; final newline added; copy artifacts (two file-name lines, \"&#x20;\", a \"?utm_source=chatgpt.com\" link parameter) kept as received"
+          "layout_changes": "none (line endings left as CRLF, no final newline); copy artifacts (two file-name lines, \"&#x20;\", a \"?utm_source=chatgpt.com\" link parameter) kept as received"
         },
         {
           "model_self_report": "Grok 4.7 (built by xAI)",
@@ -507,10 +507,10 @@
           "interface": "grok.com · Expert · conversation-history personalization off · no custom instructions (\"custom mode\" was found selected with an empty instruction field at 17:53 KST and deselected at 17:55, before the run)",
           "file": {
             "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__essay__grok4.7-20261105.md",
-            "sha256": "8a97f5ac6585bddb5bebee2ae3e83d0f0438d1806af68068a4bc4c3fe01191fe",
-            "bytes": 13166
+            "sha256": "3c4476c00774a6a819819f7e60a09b3b2f4aa68094fb6308dd0ca624d9db156c",
+            "bytes": 13194
           },
-          "layout_changes": "line endings CRLF to LF; final newline added"
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
         },
         {
           "model_self_report": "Gemini (as configured in the current environment)",
@@ -543,10 +543,10 @@
           "interface": "Copilot app (free) · auto · memory off · chat history off · custom instructions off · shared Microsoft experience off",
           "file": {
             "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__essay__copilot-20261105.md",
-            "sha256": "0f64efe6df355561f2d63cfe295cd97b1c03324f37d0001655c8b6386fc3315f",
-            "bytes": 9100
+            "sha256": "8b4194194115adda49b016d8d70f22c2f8170aacf008d16b99faa6bfcd4530fe",
+            "bytes": 9288
           },
-          "layout_changes": "line endings CRLF to LF; final newline added"
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
         },
         {
           "model_self_report": "(none given)",
@@ -555,10 +555,10 @@
           "interface": "Ollama desktop · gemma4:12b · context length 64k · Cloud on",
           "file": {
             "path": "data/egan2023-molecular__10.1152-physrev.00054.2021__essay__gemma4-12b-20261105.md",
-            "sha256": "dd9bb83125ff9617e5baec56fb855a189dd8bf19ccf2fb219d30b7cb26208e98",
-            "bytes": 4399
+            "sha256": "b51108402f394c73bb5c0e2b90be85f27d9a357dc44ca98d1f71f892f5e91f95",
+            "bytes": 4424
           },
-          "layout_changes": "line endings CRLF to LF; final newline added"
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
         },
         {
           "model_self_report": "(none given)",
