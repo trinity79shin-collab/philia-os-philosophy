@@ -573,6 +573,154 @@
           "layout_changes": "essay received as text pasted into chat; formatting may have been lost"
         }
       ]
+    },
+    {
+      "volume": "006",
+      "theme": "HOMEOSTASIS",
+      "date": "2026-11-07",
+      "input": {
+        "format": {
+          "path": "data/PHILIA_Philosophy_Common_Format_EN_v0_1.md",
+          "sha256": "333e953f09283d2197ea889be84bfaf4fcd1339517530b33deb10a04e2f6623c",
+          "bytes": 520
+        },
+        "coordinates": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/cramer2022-thermoregulation__10.1152-physrev.00047.2021__coordinates__gpt-6-20261107.json",
+          "sha256": "680407c567b920587e21a199e477033ee5f03b8501ee720049ae2dacc8b4d52e",
+          "bytes": 208629
+        },
+        "interpretation": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/cramer2022-thermoregulation__10.1152-physrev.00047.2021__interpretation__gpt-6-20261107.json",
+          "sha256": "be02ad33a528aa1b0fc0fab1d35bb0150adbce4f2bb054c757ec86df9950c1db",
+          "bytes": 85297
+        },
+        "source": {
+          "doi": "10.1152/physrev.00047.2021",
+          "title": "Human temperature regulation under heat stress in health, disease, and injury",
+          "author": "Matthew N. Cramer, Daniel Gagnon, Orlando Laitano, Craig G. Crandall",
+          "published_print": "2022-10-01"
+        }
+      },
+      "differences_from_protocol": [
+        "The source is under copyright, so the coordinates file withholds each sentence and keeps only its first and last word. The INTERPRETATION file was given together with it.",
+        "The common format was pasted as message text instead of being attached.",
+        "The coordinates and the interpretation were produced by gpt-6, which is also one of the essay workers in this volume.",
+        "The coordinates file (208,629 bytes) is large; for the local models the context length was raised from 64k to 256k at 20:21 KST, before their runs.",
+        "qwen3.8:27b is new in this series.",
+        "From this volume, essays are published byte-for-byte as received: no chat text removed, no line endings changed, no final newline added. The one exception is qwen3.5-9b (see its layout_changes)."
+      ],
+      "essays": [
+        {
+          "model_self_report": "Claude Fable 5.1 (claude-fable-5-1), as reported to me in this session's context — self-reported",
+          "worker": "fable5.1",
+          "run_date": "2026-11-07",
+          "interface": "claude.ai · Fable 5.1 · effort medium · manual · memory off · no custom instructions",
+          "file": {
+            "path": "data/cramer2022-thermoregulation__10.1152-physrev.00047.2021__essay__fable5.1-20261107.md",
+            "sha256": "b6cc5df8177412baa4893a2eef7e4ec859b489cee83092fea80a3726dd98e4dc",
+            "bytes": 25343
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); chat lines before the essay kept as received"
+        },
+        {
+          "model_self_report": "GPT-6, as I know it.",
+          "worker": "gpt6",
+          "run_date": "2026-11-07",
+          "interface": "chatgpt.com · Chat · High · memory off · writing-style reference off · web search on · no custom instructions",
+          "file": {
+            "path": "data/cramer2022-thermoregulation__10.1152-physrev.00047.2021__essay__gpt6-20261107.md",
+            "sha256": "80fd72f7607dfa2d3af95e54d25fa11939bcbcc548858df606fe13513fe9f3ce",
+            "bytes": 30236
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); a \"?utm_source=chatgpt.com\" link parameter kept as received"
+        },
+        {
+          "model_self_report": "Grok 4.7 (xAI)",
+          "worker": "grok4.7",
+          "run_date": "2026-11-07",
+          "interface": "grok.com · Expert · conversation-history personalization off · X data personalization off · no custom instructions · earlier chats deleted and uploaded-file storage emptied before the run (19:33 KST)",
+          "file": {
+            "path": "data/cramer2022-thermoregulation__10.1152-physrev.00047.2021__essay__grok4.7-20261107.md",
+            "sha256": "fe44919660c1f3f344594f6d9ad9e9f9a4f99393ff17b728866655df79c972c9",
+            "bytes": 7644
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "Gemini",
+          "worker": "gemini",
+          "run_date": "2026-11-07",
+          "interface": "gemini.google.com · auto mode (Gemini 3) · thinking level medium · memory off · no saved instructions",
+          "file": {
+            "path": "data/cramer2022-thermoregulation__10.1152-physrev.00047.2021__essay__gemini-20261107.md",
+            "sha256": "9bc5127f329f580743f8ffe4415054744507392acca16d573a6ec00202a84e65",
+            "bytes": 4105
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "Claude Sonnet 4.6 (claude-sonnet-4-6)",
+          "worker": "sonnet4.6",
+          "run_date": "2026-11-07",
+          "interface": "claude.ai · Sonnet 4.6 · effort high · manual · memory off · no custom instructions",
+          "file": {
+            "path": "data/cramer2022-thermoregulation__10.1152-physrev.00047.2021__essay__sonnet4.6-20261107.md",
+            "sha256": "c46295c586ba5c0515c7a4638aea57395a6fba80340a928d8acdc2b572a66769",
+            "bytes": 15195
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "M365 Copilot (GPT-5 chat model)",
+          "worker": "copilot",
+          "run_date": "2026-11-07",
+          "interface": "Copilot app (free) · auto · memory off · chat history off · custom instructions off · shared Microsoft experience off · the app copies uploads to OneDrive (personal)",
+          "file": {
+            "path": "data/cramer2022-thermoregulation__10.1152-physrev.00047.2021__essay__copilot-20261107.md",
+            "sha256": "2d7139a004a676bcd48abb72ec10d332fdb1765fb041536a7ad4dd7b0801509a",
+            "bytes": 7080
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "GPT-4o",
+          "worker": "gemma4-12b",
+          "run_date": "2026-11-07",
+          "interface": "Ollama desktop · gemma4:12b · context length 256k · Cloud on · web search off (no Ollama account)",
+          "file": {
+            "path": "data/cramer2022-thermoregulation__10.1152-physrev.00047.2021__essay__gemma4-12b-20261107.md",
+            "sha256": "8195e84e432ffcb3bc75a34728ad1afdda5119e86eba92e4d021ff4ba1aab9a9",
+            "bytes": 4130
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "AI Assistant (v0.1)",
+          "worker": "qwen3.5-9b",
+          "run_date": "2026-11-07",
+          "interface": "Ollama desktop · qwen3.5:9b-q8_0 · context length 256k · Cloud on · web search off (no Ollama account)",
+          "file": {
+            "path": "data/cramer2022-thermoregulation__10.1152-physrev.00047.2021__essay__qwen3.5-9b-20261107.md",
+            "sha256": "b64f31f7baedec6c695630e57789a98203289550629c8ce5fb012c75a1477917",
+            "bytes": 3599
+          },
+          "layout_changes": "essay copied with the Ollama copy button and pasted into chat; the Ollama conversation was deleted afterward, so the file was written from the pasted text (LF line endings, final newline); no word was changed"
+        },
+        {
+          "model_self_report": "Claude (Anthropic). I do not have a more specific version string available to me in this session.",
+          "worker": "qwen3.8-27b",
+          "run_date": "2026-11-07",
+          "interface": "Ollama desktop · qwen3.8:27b · context length 256k · Cloud on · web search off · thought for 1103.5 seconds",
+          "file": {
+            "path": "data/cramer2022-thermoregulation__10.1152-physrev.00047.2021__essay__qwen3.8-27b-20261107.md",
+            "sha256": "ddd6f751b0e2493ff93cc2c92559f0cc95270e18ff6b4d2b638caeb3df6cfebc",
+            "bytes": 23368
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        }
+      ]
     }
   ],
   "file_naming": "<author+year>-<keyword>__<DOI with / as ->__essay__<worker>-<run date>.md",
