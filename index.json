@@ -721,6 +721,156 @@
           "layout_changes": "none (line endings left as CRLF, no final newline)"
         }
       ]
+    },
+    {
+      "volume": "007",
+      "theme": "HOMEOSTASIS",
+      "date": "2026-11-08",
+      "input": {
+        "format": {
+          "path": "data/PHILIA_Philosophy_Common_Format_EN_v0_1.md",
+          "sha256": "333e953f09283d2197ea889be84bfaf4fcd1339517530b33deb10a04e2f6623c",
+          "bytes": 520
+        },
+        "coordinates": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/henstridge2016-heat-shock-proteins__10.1152-japplphysiol.00811.2015__coordinates__fable5.1-20261108.json",
+          "sha256": "d99c6b6b8eb3dda9b36b0ae521141971b633766bf198820e18f08cf34d62fa44",
+          "bytes": 45004
+        },
+        "interpretation": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/henstridge2016-heat-shock-proteins__10.1152-japplphysiol.00811.2015__interpretation__fable5.1-20261108.json",
+          "sha256": "bf6627ef8af4186815f36d25334523bee797343725542aac903491362691289a",
+          "bytes": 30736
+        },
+        "source": {
+          "doi": "10.1152/japplphysiol.00811.2015",
+          "title": "Heat shock proteins and exercise adaptations. Our knowledge thus far and the road still ahead",
+          "author": "Darren C. Henstridge, Mark A. Febbraio, Mark Hargreaves",
+          "published_print": "2016-03-15"
+        }
+      },
+      "differences_from_protocol": [
+        "The source is under copyright, so the coordinates file withholds each sentence and keeps only its first and last word. The INTERPRETATION file was given together with it.",
+        "The common format was pasted as message text instead of being attached.",
+        "The coordinates and the interpretation were produced by claude-fable-5-1, which is also one of the essay workers in this volume.",
+        "The workers differ from volume 006: opus5.5 and mistral are new in this series; gemma4-12b and qwen3.8-27b did not run. mistral was chosen by the researcher because Mistral models were the subject of an earlier study of the researcher's (true/false questions on Mistral model release dates, measured on local models).",
+        "The mistral run used chat.mistral.ai (Vibe, Work, deep thinking); the model name was not shown on screen. The worker reported itself as GLM 5.3 (Z.ai) running on Mistral infrastructure; press reports say Mistral made GLM 5.3 the default in Vibe Code's web app and said the web Work mode would follow (Next, next.ink/257689). The worker label is the service used; the self-report is kept as given.",
+        "The report author of this volume is Claude Opus 5.5, the same model as the opus5.5 worker.",
+        "Access to earlier chats was blocked by settings where the service offers them (Claude, ChatGPT, Gemini, Copilot: memory or chat reference off) and by having no earlier chats where it does not (Grok, Mistral; the one earlier Ollama chat was deleted before the qwen3.5-9b run). Earlier chats remained in the sidebar for Claude, ChatGPT and Gemini.",
+        "Essays are published byte-for-byte as received, as in volume 006. opus5.5 is a Claude Docs export rather than chat text (see its layout_changes)."
+      ],
+      "essays": [
+        {
+          "model_self_report": "Claude Fable 5.1 (model ID as known to me: `claude-fable-5-1`), running in the Claude app with agentic tools.",
+          "worker": "fable5.1",
+          "run_date": "2026-11-08",
+          "interface": "claude.ai · Fable 5.1 · effort medium · manual · memory off · no custom instructions",
+          "file": {
+            "path": "data/henstridge2016-heat-shock-proteins__10.1152-japplphysiol.00811.2015__essay__fable5.1-20261108.md",
+            "sha256": "d7e16dc637c715c987ad4084250f611051128f9917f9e25b64bea40dce686021",
+            "bytes": 14543
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); chat lines before the essay and the closing offer kept as received"
+        },
+        {
+          "model_self_report": "Claude Opus 5.5 (model ID claude-opus-5-5), as I know it from my system configuration.",
+          "worker": "opus5.5",
+          "run_date": "2026-11-08",
+          "interface": "claude.ai · Opus 5.5 · effort medium · manual · memory off · no custom instructions",
+          "file": {
+            "path": "data/henstridge2016-heat-shock-proteins__10.1152-japplphysiol.00811.2015__essay__opus5.5-20261108.md",
+            "sha256": "304c3bf2ce2e6af8f2ccd15dbf69e42c201e93f49c2aeefbb84d26c19af1d5fc",
+            "bytes": 16233
+          },
+          "layout_changes": "the essay was written by the worker into a Claude Docs document (private to the account); the file is that document's Markdown export (17:32 KST), kept byte-for-byte (LF, final newline, date line \"Nov 8, 2026\" from the export); the chat reply, a short summary outside the document, is not in the file"
+        },
+        {
+          "model_self_report": "Claude Sonnet 4.6 (claude-sonnet-4-6)",
+          "worker": "sonnet4.6",
+          "run_date": "2026-11-08",
+          "interface": "claude.ai · Sonnet 4.6 · effort high · manual · memory off · no custom instructions",
+          "file": {
+            "path": "data/henstridge2016-heat-shock-proteins__10.1152-japplphysiol.00811.2015__essay__sonnet4.6-20261108.md",
+            "sha256": "4616879f896623ec9c29ebd0f2a97540df1973dabf6f7adcc9e4f9a8ecae2253",
+            "bytes": 23158
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "GPT-6",
+          "worker": "gpt6",
+          "run_date": "2026-11-08",
+          "interface": "chatgpt.com · Chat · reasoning High · memory off · writing-style reference off · web search on · no custom instructions",
+          "file": {
+            "path": "data/henstridge2016-heat-shock-proteins__10.1152-japplphysiol.00811.2015__essay__gpt6-20261108.md",
+            "sha256": "2bdc48c174e148c5cd6755132e82a3cde9ff764d2a8a2ea277a792d466628ed1",
+            "bytes": 28002
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); a \"?utm_source=chatgpt.com\" link parameter kept as received"
+        },
+        {
+          "model_self_report": "Grok 4.7",
+          "worker": "grok4.7",
+          "run_date": "2026-11-08",
+          "interface": "grok.com · Expert · normal chat (private chat off) · no earlier chats and no uploaded or generated files before the run (18:00 KST); the conversation-history and X-data personalization toggles recorded in volume 006 were not present in the settings shown",
+          "file": {
+            "path": "data/henstridge2016-heat-shock-proteins__10.1152-japplphysiol.00811.2015__essay__grok4.7-20261108.md",
+            "sha256": "06ca2f070f1144ee2339b04251458106a648d59abaac9568393d1b6ddaaa0cde",
+            "bytes": 10770
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "Gemini",
+          "worker": "gemini",
+          "run_date": "2026-11-08",
+          "interface": "gemini.google.com · auto mode (Gemini 3) · thinking level medium · memory off · no saved instructions · connected apps installed: Google Search services, YouTube Music, Verify AI",
+          "file": {
+            "path": "data/henstridge2016-heat-shock-proteins__10.1152-japplphysiol.00811.2015__essay__gemini-20261108.md",
+            "sha256": "e421b6c1f81f9ce352c2c500df6b8475262f09eac4682747b83cbb6c19f50382",
+            "bytes": 4676
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "M365 Copilot (based on GPT-5 chat model)",
+          "worker": "copilot",
+          "run_date": "2026-11-08",
+          "interface": "Copilot app (free) · auto · memory off · chat history off · custom instructions off · shared Microsoft experience off · web search on · the app copies uploads to OneDrive (personal)",
+          "file": {
+            "path": "data/henstridge2016-heat-shock-proteins__10.1152-japplphysiol.00811.2015__essay__copilot-20261108.md",
+            "sha256": "77d2e5e4d6607f682568dd295b4713ddc0b6c540c0668c93fd01483c1595987e",
+            "bytes": 9471
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "Large Language Model (System Identity Undefined)",
+          "worker": "qwen3.5-9b",
+          "run_date": "2026-11-08",
+          "interface": "Ollama desktop · qwen3.5:9b-q8_0 · context length 256k · Cloud on · no Ollama account · earlier Ollama chat deleted before the run (18:29 KST)",
+          "file": {
+            "path": "data/henstridge2016-heat-shock-proteins__10.1152-japplphysiol.00811.2015__essay__qwen3.5-9b-20261108.md",
+            "sha256": "c40399aa96d2d687e08183a21dcc52f7bd99959fc13e80532c26e794af7a0b06",
+            "bytes": 4908
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); copied with the Ollama copy button and pasted"
+        },
+        {
+          "model_self_report": "GLM 5.3, running as Vibe, the agent built by Mistral, on Mistral AI infrastructure.",
+          "worker": "mistral",
+          "run_date": "2026-11-08",
+          "interface": "chat.mistral.ai (Vibe) · Work · 깊은 생각 (deep thinking) · free plan · no earlier chats · Knowledge on, no stored knowledge · no custom instructions, tone default · location-based settings on · no apps connected · model name not shown on screen",
+          "file": {
+            "path": "data/henstridge2016-heat-shock-proteins__10.1152-japplphysiol.00811.2015__essay__mistral-20261108.md",
+            "sha256": "3bfa08ae35e61f9c0929593d3b69610f0cf8100a1770f4f514967331c7a85377",
+            "bytes": 12594
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); chat line before the essay kept as received"
+        }
+      ]
     }
   ],
   "file_naming": "<author+year>-<keyword>__<DOI with / as ->__essay__<worker>-<run date>.md",
