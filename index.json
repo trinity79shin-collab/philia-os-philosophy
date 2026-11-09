@@ -871,6 +871,157 @@
           "layout_changes": "none (line endings left as CRLF, no final newline); chat line before the essay kept as received"
         }
       ]
+    },
+    {
+      "volume": "008",
+      "theme": "HOMEOSTASIS",
+      "date": "2026-11-09",
+      "input": {
+        "format": {
+          "path": "data/PHILIA_Philosophy_Common_Format_EN_v0_1.md",
+          "sha256": "333e953f09283d2197ea889be84bfaf4fcd1339517530b33deb10a04e2f6623c",
+          "bytes": 520
+        },
+        "coordinates": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/katz2025-molecular-response__10.1152-physiol.00024.2024__coordinates__fable5.1-20261109.json",
+          "sha256": "a0dc5ec8e6d5342a16cb331f522d9755cddafe47975ab05f61db00731f351fcb",
+          "bytes": 63483
+        },
+        "interpretation": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/katz2025-molecular-response__10.1152-physiol.00024.2024__interpretation__fable5.1-20261109.json",
+          "sha256": "d16f4ec5b7a77c7b2f7b6b75e4f180099b2f2fd6371fe73ae4476d90e8d977cc",
+          "bytes": 34042
+        },
+        "source": {
+          "doi": "10.1152/physiol.00024.2024",
+          "title": "Charting the Molecular Terrain of Exercise: Energetics, Exerkines, and the Future of Multiomic Mapping",
+          "author": "Daniel H. Katz, Maléne E. Lindholm, Euan A. Ashley",
+          "published_print": "2025-03-01"
+        }
+      },
+      "differences_from_protocol": [
+        "The source is under copyright, so the coordinates file withholds each sentence and keeps only its first and last word. The INTERPRETATION file was given together with it, on the researcher's principle of passing the coordinates data on as published; both files were produced by AI and code, not written by the researcher.",
+        "The common format was pasted as message text instead of being attached, for every worker, because local models do not act on attached files alone.",
+        "The coordinates and the interpretation were produced by claude-fable-5-1, which is also one of the essay workers in this volume.",
+        "The workers are the same as in volume 007; gemma4-12b and qwen3.8-27b did not run.",
+        "The mistral run used the Vibe desktop app (Vibe Work) instead of chat.mistral.ai; the model name was not shown on screen. The worker reported itself as GLM, without a version number (volume 007: GLM 5.3). The worker label is the service used; the self-report is kept as given.",
+        "The report author of this volume is Claude Opus 5.5, the same model as the opus5.5 worker. The report session had read both input files and had begun an essay of its own under the common format before the researcher stopped it; that draft was not finished and is not published. The opus5.5 worker ran in a separate new chat with memory off.",
+        "Access to earlier chats was blocked by settings where the service offers them (Claude, ChatGPT, Gemini, Copilot: memory or chat reference off) and by having no earlier chats where it does not (Grok, Mistral, Ollama). Earlier chats remained in the sidebar for Claude, ChatGPT and Gemini; the Gemini essay shows no trace of them.",
+        "Essays are published byte-for-byte as received, except gemini, whose essay arrived as pasted text and had its layout restored (see its layout_changes).",
+        "The report author checked each essay against the input files after the run (coordinate ids, record, factual statements). The checks are not part of the record of the essays and nothing was corrected for its ideas."
+      ],
+      "essays": [
+        {
+          "model_self_report": "Claude Fable 5.1 (model ID `claude-fable-5-1`), as I know it.",
+          "worker": "fable5.1",
+          "run_date": "2026-11-09",
+          "interface": "claude.ai · Fable 5.1 · effort medium · manual · memory off · no custom instructions",
+          "file": {
+            "path": "data/katz2025-molecular-response__10.1152-physiol.00024.2024__essay__fable5.1-20261109.md",
+            "sha256": "c935577d2855e2f2ad2567dd0fbed07681faec4d85838f827c8ebe9e9a9cec39",
+            "bytes": 7432
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); chat line before the essay kept as received"
+        },
+        {
+          "model_self_report": "Claude Opus 5.5 (model ID `claude-opus-5-5`), as I know it. This is not the model that did the picking, classification or explanations (Claude Fable 5.1).",
+          "worker": "opus5.5",
+          "run_date": "2026-11-09",
+          "interface": "claude.ai · Opus 5.5 · effort medium · manual · memory off · no custom instructions",
+          "file": {
+            "path": "data/katz2025-molecular-response__10.1152-physiol.00024.2024__essay__opus5.5-20261109.md",
+            "sha256": "b3d58150d06fb405844f111c2fbb073af101922d0a5f7caf2ecd64f0a180efb3",
+            "bytes": 14764
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); chat line before the essay and the closing offer kept as received"
+        },
+        {
+          "model_self_report": "Claude Sonnet 4.6 (claude-sonnet-4-6)",
+          "worker": "sonnet4.6",
+          "run_date": "2026-11-09",
+          "interface": "claude.ai · Sonnet 4.6 · effort high · manual · memory off · no custom instructions",
+          "file": {
+            "path": "data/katz2025-molecular-response__10.1152-physiol.00024.2024__essay__sonnet4.6-20261109.md",
+            "sha256": "0705b28dd06a11fd5fddebde853937afe47d40f59346f7a54bc5a1c58bf21fa9",
+            "bytes": 22115
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); chat line before the essay kept as received"
+        },
+        {
+          "model_self_report": "GPT-6",
+          "worker": "gpt6",
+          "run_date": "2026-11-09",
+          "interface": "chatgpt.com · Chat · reasoning High · memory off · writing-style reference off · web search on · no custom instructions · Plus plan",
+          "file": {
+            "path": "data/katz2025-molecular-response__10.1152-physiol.00024.2024__essay__gpt6-20261109.md",
+            "sha256": "7c6598e6145998eee430cb8b8a78f14ff979a3b14c38d70dfc4c2072e10f6196",
+            "bytes": 31693
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); a \"?utm_source=chatgpt.com\" link parameter, two \"&#x20;\" entities and the \"(1)\" suffix in the attached file names kept as received"
+        },
+        {
+          "model_self_report": "Grok 4.7",
+          "worker": "grok4.7",
+          "run_date": "2026-11-09",
+          "interface": "grok.com · Expert · normal chat (private chat off) · no earlier chats and no uploaded or generated files before the run (19:33–19:37 KST); the data controls showed file storage as 16.93 MB of 5.37 GB used, cause unknown; no personalization toggles in the settings shown",
+          "file": {
+            "path": "data/katz2025-molecular-response__10.1152-physiol.00024.2024__essay__grok4.7-20261109.md",
+            "sha256": "fb2b0797ab15de6397eac1621318068a387f49ccd82109470fb5db957dc1efd2",
+            "bytes": 8275
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "Gemini",
+          "worker": "gemini",
+          "run_date": "2026-11-09",
+          "interface": "gemini.google.com · auto mode (Gemini 3) · thinking level medium · memory off · no saved instructions · connected apps installed: Google Search services, YouTube Music, Verify AI · Google AI Plus plan (3.1 Pro and 4 Argon locked) · earlier chats remained in the sidebar",
+          "file": {
+            "path": "data/katz2025-molecular-response__10.1152-physiol.00024.2024__essay__gemini-20261109.md",
+            "sha256": "90cec7a3c9a71b96f0d40867b9788bf78f44ac89d317b694f4050742ef6d6924",
+            "bytes": 3880
+          },
+          "layout_changes": "the essay reached the report author as text pasted into the chat, with its Markdown lost; the title and section headings (## and ###) and the bold field names and list of the record were restored from the screenshot of the reply (19:49 KST) and the layout of the earlier gemini files; no word was changed; CRLF, no final newline"
+        },
+        {
+          "model_self_report": "M365 Copilot (based on GPT-5 chat model)",
+          "worker": "copilot",
+          "run_date": "2026-11-09",
+          "interface": "Copilot app (free) · auto · memory off · chat history off · custom instructions off · shared Microsoft experience off · web search on · no earlier chats · the app copies uploads to OneDrive (personal)",
+          "file": {
+            "path": "data/katz2025-molecular-response__10.1152-physiol.00024.2024__essay__copilot-20261109.md",
+            "sha256": "d72833e2958b90a44bbfa4bdb5c3ac74725d30ce5fc946e879db604da3241cd2",
+            "bytes": 8047
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "Large Language Model (LLM)",
+          "worker": "qwen3.5-9b",
+          "run_date": "2026-11-09",
+          "interface": "Ollama desktop 0.40.15 · qwen3.5:9b-q8_0 (ID a8ee95bc3592) · context length 256k · Cloud on · no Ollama account · no earlier Ollama chats · the app window would not open because two app instances were running; all Ollama processes were ended and the app restarted before the run (20:15 KST) · run 20:16–20:41 KST",
+          "file": {
+            "path": "data/katz2025-molecular-response__10.1152-physiol.00024.2024__essay__qwen3.5-9b-20261109.md",
+            "sha256": "6f85a2d546f44c99927def9659ba8264e1339e7e4fdc8838680301181b5ef17d",
+            "bytes": 4376
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "GLM (served in the Vibe agent, on Mistral infrastructure).",
+          "worker": "mistral",
+          "run_date": "2026-11-09",
+          "interface": "Vibe desktop app (Vibe Work) · Work · 깊은 생각 (deep thinking) · free plan · no earlier chats · Knowledge on, no stored knowledge shown, sensitive data off · model training on Vibe interactions on · no custom instructions, tone default · location-based settings on · my connectors 0 (15 shared connectors listed) · model name not shown on screen",
+          "file": {
+            "path": "data/katz2025-molecular-response__10.1152-physiol.00024.2024__essay__mistral-20261109.md",
+            "sha256": "39bb3e137f14e44623139dcd8dd8c5d488f5d1c121ee2e55754325aac74a3322",
+            "bytes": 11667
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        }
+      ]
     }
   ],
   "file_naming": "<author+year>-<keyword>__<DOI with / as ->__essay__<worker>-<run date>.md",
