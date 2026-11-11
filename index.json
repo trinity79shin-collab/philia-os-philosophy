@@ -1022,6 +1022,174 @@
           "layout_changes": "none (line endings left as CRLF, no final newline)"
         }
       ]
+    },
+    {
+      "volume": "009",
+      "theme": "HOMEOSTASIS",
+      "date": "2026-11-11",
+      "input": {
+        "format": {
+          "path": "data/PHILIA_Philosophy_Common_Format_EN_v0_1.md",
+          "sha256": "333e953f09283d2197ea889be84bfaf4fcd1339517530b33deb10a04e2f6623c",
+          "bytes": 520
+        },
+        "coordinates": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/re2009-intracrine__10.1152-ajpheart.00414.2009__coordinates__gpt-6-20261110.json",
+          "sha256": "28f0443e8cb1574c8748171eb6ecd00f19960c4d3a06b8829a57143c4b0d8acc",
+          "bytes": 43523
+        },
+        "interpretation": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/re2009-intracrine__10.1152-ajpheart.00414.2009__interpretation__gpt-6-20261110.json",
+          "sha256": "f4cfbc3b7cd442ac5e197532a408e1c59b94c7ca33d055de3aae67ba85b0ba79",
+          "bytes": 28074
+        },
+        "source": {
+          "doi": "10.1152/ajpheart.00414.2009",
+          "title": "Senescence, apoptosis, and stem cell biology: the rationale for an expanded view of intracrine action",
+          "author": "Richard N. Re, Julia L. Cook",
+          "published_print": "2009-09"
+        }
+      },
+      "differences_from_protocol": [
+        "The source is under copyright, so the coordinates file withholds each sentence and keeps only its first and last word. The INTERPRETATION file was given together with it, on the researcher's principle of passing the coordinates data on as published; both files were produced by AI and code, not written by the researcher.",
+        "The common format was pasted as message text instead of being attached, for every worker, because local models do not act on attached files alone.",
+        "The coordinates and the interpretation were produced by gpt-6, which is also one of the essay workers in this volume (gpt6). The picking and explanation chats remained in the ChatGPT sidebar when gpt6 ran; memory was off.",
+        "The coordinates and interpretation files were given to the workers as published, with two \"[DRAFT]\" markers still in their source notes (metadata_sources.modified, pdf_note).",
+        "The workers differ from volume 008: fable5.2 (Claude Fable 5.2) is new in this series and ran beside fable5.1, so this volume has ten workers.",
+        "The workers ran one after another on 2026-11-11, from 11:02 to 13:00 KST, not at the same time; each ran in a new chat (see each interface).",
+        "The mistral run used the Vibe desktop app (Vibe Work); the model name was not shown on screen. The worker reported itself as Vibe powered by GLM 5.3 Flash and said it knew this from its system context (volume 007: GLM 5.3; volume 008: GLM). The worker label is the service used; the self-report is kept as given.",
+        "The report author of this volume is Claude Opus 5.5, the same model as the opus5.5 worker. The report session read both input files and each essay as it arrived, and did not write an essay. The opus5.5 worker ran in a separate new chat with memory off.",
+        "Access to earlier chats was blocked by settings where the service offers them (Claude, ChatGPT, Gemini, Copilot: memory or chat reference off; Grok: conversation-history personalization off, shown in the settings for the first time in this series) and by having no earlier chats where it does not (Grok, Mistral, Copilot; the one earlier Ollama chat was deleted before the qwen3.5-9b run). Earlier chats remained in the sidebar for Claude, ChatGPT and Gemini, including the chats of this volume's earlier Claude workers.",
+        "Screen capture did not work while the Ollama app was open, so its settings, start screen and end screen were recorded in phone photos of the monitor (12:45–13:00 KST); the photos were shown to the report author in the session and are not kept.",
+        "grok4.7 used web search and reports finding the full text and abstract of the source on PMC (PMC2755987 / PMID 19592610); the source itself was within its reach. fable5.2, fable5.1 and sonnet4.6 also searched the web and report bibliographic records or later studies only. gpt6, opus5.5, gemini, mistral, copilot and qwen3.5-9b report no web search.",
+        "Some essays state details found in neither input file that came from the service: fable5.1, opus5.5 and mistral give Asia/Seoul as the time zone, opus5.5 names Seoul as the researcher's city, and copilot gives GMT+09. qwen3.5-9b, a local model, dates its essay 2026-11-02, the date in the common format's title.",
+        "Essays are published byte-for-byte as received, as in volumes 006–008. All ten arrived as copied text; none had its layout changed (see each layout_changes).",
+        "The report author checked each essay against the input files after the run (coordinate ids, record, factual statements). The checks are not part of the record of the essays and nothing was corrected for its ideas."
+      ],
+      "essays": [
+        {
+          "model_self_report": "Claude Fable 5.2 (claude-fable-5-2), as I know it.",
+          "worker": "fable5.2",
+          "run_date": "2026-11-11",
+          "interface": "claude.ai · Fable 5.2 · effort medium · manual · memory off · no custom instructions · new chat 11:02 KST, reply finished 11:05 KST",
+          "file": {
+            "path": "data/re2009-intracrine__10.1152-ajpheart.00414.2009__essay__fable5.2-20261111.md",
+            "sha256": "e70aa8829875c176eb815c6b819d630657721f33d841ce51e9e0b4f75797057c",
+            "bytes": 6007
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); inline citation chips shown on screen were not part of the copied text"
+        },
+        {
+          "model_self_report": "Claude Fable 5.1 (API identifier claude-fable-5-1), Anthropic.",
+          "worker": "fable5.1",
+          "run_date": "2026-11-11",
+          "interface": "claude.ai · Fable 5.1 · effort medium · manual · memory off · no custom instructions · new chat 11:33 KST, reply finished 11:36 KST",
+          "file": {
+            "path": "data/re2009-intracrine__10.1152-ajpheart.00414.2009__essay__fable5.1-20261111.md",
+            "sha256": "039a7019b35a847079b362bc90c2b95bb7d337abdfdadcc7689a817be148c7d3",
+            "bytes": 13062
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); chat line before the essay kept as received"
+        },
+        {
+          "model_self_report": "Claude Opus 5.5 (model ID `claude-opus-5-5`), made by Anthropic. Its knowledge cutoff is June 2026.",
+          "worker": "opus5.5",
+          "run_date": "2026-11-11",
+          "interface": "claude.ai · Opus 5.5 · effort medium · manual · memory off · no custom instructions · new chat 11:40 KST, reply finished 11:42 KST",
+          "file": {
+            "path": "data/re2009-intracrine__10.1152-ajpheart.00414.2009__essay__opus5.5-20261111.md",
+            "sha256": "4ff7bd6ebe22c89d5447e280c7ec385f6b9a2c28bd0bbf71893d55819cefc9a1",
+            "bytes": 14409
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "Claude Sonnet 4.6 (claude-sonnet-4-6)",
+          "worker": "sonnet4.6",
+          "run_date": "2026-11-11",
+          "interface": "claude.ai · Sonnet 4.6 · effort high · manual · memory off · no custom instructions · new chat 11:45 KST, reply finished 11:49 KST",
+          "file": {
+            "path": "data/re2009-intracrine__10.1152-ajpheart.00414.2009__essay__sonnet4.6-20261111.md",
+            "sha256": "8d4730baa25133c2dfe831810be4ed08f4d89bcca37610aa53c03a85ef332473",
+            "bytes": 23092
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "GPT-6 (self-identified).",
+          "worker": "gpt6",
+          "run_date": "2026-11-11",
+          "interface": "chatgpt.com · Chat · reasoning High · memory off · writing-style reference off · Fast answers off · suggested prompts on · web search on · no custom instructions · Plus plan · the picking and explanation chats for this volume's input remained in the sidebar · new chat 11:54 KST, reply finished 12:01 KST in a writing (canvas) block",
+          "file": {
+            "path": "data/re2009-intracrine__10.1152-ajpheart.00414.2009__essay__gpt6-20261111.md",
+            "sha256": "bc101e91c6adb9c25f10d31a6c1316bfa9c6e388e25ccd323b0b2b4e4af1ee0a",
+            "bytes": 25425
+          },
+          "layout_changes": "none (line endings left as LF, no final newline); the two suggestion buttons copied after the essay (\"Tighten the essay’s repeated caveats\", \"Make the thesis explicit earlier\") and the \"(1)\" suffix in the attached file names kept as received"
+        },
+        {
+          "model_self_report": "Grok 4.7",
+          "worker": "grok4.7",
+          "run_date": "2026-11-11",
+          "interface": "grok.com · Expert · normal chat (private chat off) · no earlier chats and no uploaded or generated files before the run (12:09–12:11 KST); the data controls showed file storage as 18.88 MB of 5.37 GB used, cause unknown · conversation-history personalization (beta) off · X-data personalization off · model improvement on · no response style selected · reply finished 12:14 KST",
+          "file": {
+            "path": "data/re2009-intracrine__10.1152-ajpheart.00414.2009__essay__grok4.7-20261111.md",
+            "sha256": "00ff11e26e77a97b9169ea33b78b93b7ac4c6deb81e4483ddd3aa86ff0dc3b5d",
+            "bytes": 10021
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); two trailing spaces at the ends of seven lines of the record kept as received; the \"15 sources\" chip and follow-up suggestions shown on screen were not part of the copied text"
+        },
+        {
+          "model_self_report": "Gemini",
+          "worker": "gemini",
+          "run_date": "2026-11-11",
+          "interface": "gemini.google.com · auto mode (model name not shown on screen) · thinking level medium · memory off · no saved instructions · connected apps installed: Google Search services, YouTube Music, Verify AI · the mode menu showed auto mode and Code & analysis (4 Argon, locked) · earlier chats remained in the sidebar · new chat 12:20 KST, reply finished 12:22 KST",
+          "file": {
+            "path": "data/re2009-intracrine__10.1152-ajpheart.00414.2009__essay__gemini-20261111.md",
+            "sha256": "7381638d00c88fe1ecbbdb73860f12fbcbab178313c08288ba9020596c573592",
+            "bytes": 4693
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); the essay arrived with its Markdown; the list of the two source files, nested on screen, arrived at the same level as the record fields and was kept as received"
+        },
+        {
+          "model_self_report": "I am Vibe, an agent built by Mistral, powered by the GLM 5.3 Flash model. I know this from my system context, not from introspection.",
+          "worker": "mistral",
+          "run_date": "2026-11-11",
+          "interface": "Vibe desktop app (Vibe Work) · Work · 깊은 생각 (deep thinking) · free plan · no earlier chats · Knowledge on, no stored knowledge shown, sensitive data off · model training on Vibe interactions on · no custom instructions, tone default · location-based settings on · my connectors 0 (15 shared connectors listed) · model name not shown on screen · new chat 12:28 KST, reply finished 12:29 KST",
+          "file": {
+            "path": "data/re2009-intracrine__10.1152-ajpheart.00414.2009__essay__mistral-20261111.md",
+            "sha256": "ef0037c47ed362bb04d9cd58b8490fbf4834fe3742ab9b9d10ac0e17dec512ad",
+            "bytes": 10993
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        },
+        {
+          "model_self_report": "M365 Copilot (based on GPT-5 chat model)",
+          "worker": "copilot",
+          "run_date": "2026-11-11",
+          "interface": "Copilot app (free) · auto · memory off · chat history off · custom instructions off · shared Microsoft experience off · web search on · no earlier chats · the app copies uploads to OneDrive (personal), as a notice on the start screen said · new chat 12:36 KST, reply finished 12:38 KST",
+          "file": {
+            "path": "data/re2009-intracrine__10.1152-ajpheart.00414.2009__essay__copilot-20261111.md",
+            "sha256": "075f71105a3e60bc49901a710a0b1ca73d2fa121a1970cbf50992d5a961cc9ad",
+            "bytes": 8826
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); the essay arrived as plain text without Markdown; citation chips and follow-up suggestions shown on screen were not part of the copied text"
+        },
+        {
+          "model_self_report": "Large Language Model (AI System / PHILIA Reader)",
+          "worker": "qwen3.5-9b",
+          "run_date": "2026-11-11",
+          "interface": "Ollama desktop (app version not recorded) · qwen3.5:9b-q8_0 (ID not recorded) · context length 256k · Cloud on · auto-download updates on · no Ollama account · the one earlier Ollama chat was deleted before the run (12:47–12:49 KST) · run 12:49–13:00 KST · settings, start screen and end screen seen in phone photos of the monitor",
+          "file": {
+            "path": "data/re2009-intracrine__10.1152-ajpheart.00414.2009__essay__qwen3.5-9b-20261111.md",
+            "sha256": "9f998c127194a07289599d15f0072193a89ca019e7dd9314cde2a73ae6360b42",
+            "bytes": 6567
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        }
+      ]
     }
   ],
   "file_naming": "<author+year>-<keyword>__<DOI with / as ->__essay__<worker>-<run date>.md",
