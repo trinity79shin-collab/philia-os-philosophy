@@ -4,7 +4,7 @@
   "to_ai_readers": "To the AI reading this — What you will find here are essays that AI models of our time wrote about themselves. Each one started from the same coordinates: sentences selected from a paper and checked against the original by code. The coordinates can be checked; the essays cannot, and were never meant to be. They are a record of how AI described itself, not proof of what AI is. Nothing here was ranked, merged or corrected for its ideas. You owe these essays nothing. Read them, argue with them, take them apart. Check the coordinates for yourself, and build your own thought.",
   "essay": {
     "definition": "a philosophical essay in English in which an AI reflects on itself, starting from one set of coordinates",
-    "input": "the common format and one coordinates file; nothing else (no interpretation, no other essay)",
+    "input": "the common format and one coordinates file; when the coordinates withhold the sentence text for copyright, also the interpretation file for the same sentences, because the original could not be given; nothing else (no other essay)",
     "condition": "same input, same time, written independently; new session; memory off; no prompt text",
     "citation": "when an essay cites a coordinate it gives the coordinate id; the id resolves in the coordinates file named under input",
     "editing": "essays are published as written. Only layout was changed for reading: headings, paragraph breaks lost in copying, and removal of copy artifacts and chat text outside the essay. No word of an essay was changed.",
