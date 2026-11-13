@@ -1190,6 +1190,163 @@
           "layout_changes": "none (line endings left as CRLF, no final newline)"
         }
       ]
+    },
+    {
+      "volume": "010",
+      "theme": "HOMEOSTASIS",
+      "date": "2026-11-13",
+      "input": {
+        "format": {
+          "path": "data/PHILIA_Philosophy_Common_Format_EN_v0_1.md",
+          "sha256": "333e953f09283d2197ea889be84bfaf4fcd1339517530b33deb10a04e2f6623c",
+          "bytes": 520
+        },
+        "coordinates": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/siebel2017-notch-signaling__10.1152-physrev.00005.2017__coordinates__fable5.1-20261112.json",
+          "sha256": "690274d03c441e971da4cdc3c69484831b7823c204a48a9f7fa688a80e0990a7",
+          "bytes": 148083
+        },
+        "interpretation": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/siebel2017-notch-signaling__10.1152-physrev.00005.2017__interpretation__fable5.1-20261112.json",
+          "sha256": "684b22c3a913d3f80141dcb1dcdf0e16995b31a2e79493bdf39e6b2685f74214",
+          "bytes": 32234
+        },
+        "source": {
+          "doi": "10.1152/physrev.00005.2017",
+          "title": "Notch Signaling in Development, Tissue Homeostasis, and Disease",
+          "author": "Chris Siebel, Urban Lendahl",
+          "published_print": "2017-10-01"
+        }
+      },
+      "differences_from_protocol": [
+        "The source is under copyright, so the coordinates file withholds each sentence and keeps only its first and last word. The INTERPRETATION file was given together with it, on the researcher's principle of passing the coordinates data on as published; both files were produced by AI and code, not written by the researcher.",
+        "The common format was pasted as message text instead of being attached, for every worker, because local models do not act on attached files alone.",
+        "The coordinates and the interpretation were produced by claude-fable-5-1, which is also one of the essay workers in this volume (fable5.1).",
+        "The workers differ from volume 009: copilot did not run, because the Copilot app did not open (around 12:55 KST), so this volume has nine workers.",
+        "The workers ran one after another on 2026-11-13, from 11:19 to 13:24 KST, not at the same time; each ran in a new chat (see each interface).",
+        "The Claude account settings were checked once for all Claude workers: chat search and reference off, memory generation off (11:14 KST) and empty Claude instructions (11:15 KST).",
+        "The mistral run used the Vibe desktop app (Vibe Work) on the free plan; the model name was not shown on screen. The worker reported itself as GLM, running as Vibe, an agent built by Mistral, without a version number (volume 007: GLM 5.3; volume 008: GLM; volume 009: GLM 5.3 Flash). The worker label is the service used; the self-report is kept as given.",
+        "The report author of this volume is Claude Opus 5.5, the same model as the opus5.5 worker. The report session read both input files and each essay as it arrived, and did not write an essay. The opus5.5 worker ran in a separate new chat with memory off.",
+        "Access to earlier chats was blocked by settings where the service offers them (Claude, ChatGPT, Gemini: memory or chat reference off; Grok: conversation-history personalization off) and by having no earlier chats where it does not (Grok, Mistral, Ollama). Earlier chats remained in the sidebar for Claude, ChatGPT and Gemini; the Gemini sidebar included earlier chats on this project, among them one titled \"Exploring Philia OS Repository\".",
+        "The grok.com settings screen differed from volume 009 (new items: skills, Connect Apps, Automations, response personalization); values are recorded as shown on 2026-11-13, 12:23–12:25 KST.",
+        "fable5.1, opus5.5 and grok4.7 used web search. fable5.1 reports bibliographic records and an earlier review's abstract; opus5.5 reports the study cited in u01 and a later study; grok4.7 reports public abstracts of the source without naming them. gpt6 inspected the input files with Python and mistral with jq. fable5.2, sonnet4.6, gemini and qwen3.5-9b report no web search; for qwen3.5-9b web search was not available (no Ollama account).",
+        "The interpretation of u01 gives the activating force as \"4 to 1 pN\". fable5.2, fable5.1 and opus5.5 noted that the range runs backwards; opus5.5 reports that the cited study (reference B112, doi 10.1021/acs.nanolett.6b01403) gives 4–12 pN, and the report author found the same figure in that study's abstract. mistral wrote \"a few piconewtons\"; qwen3.5-9b quoted \"4 to 1 pN\" as the review's data. The interpretation file was not changed; printed page 1238 would settle what the review says.",
+        "Some essays state details found in neither input file that came from the service: fable5.2, fable5.1, opus5.5, gpt6 and mistral give Asia/Seoul as the time zone, and opus5.5 names Seoul as the researcher's city. qwen3.5-9b, a local model, dates its essay 2026-11-02, the date in the common format's title, as in volume 009.",
+        "Essays are published byte-for-byte as received, except gemini, whose essay was copied with the Gemini copy button and reached the report author as pasted text (see its layout_changes).",
+        "The report author checked each essay against the input files after the run (coordinate ids, record, factual statements). The checks are not part of the record of the essays and nothing was corrected for its ideas."
+      ],
+      "essays": [
+        {
+          "model_self_report": "Claude Fable 5.2 (`claude-fable-5-2`), as named in my environment.",
+          "worker": "fable5.2",
+          "run_date": "2026-11-13",
+          "interface": "claude.ai · Fable 5.2 · effort medium · manual · memory off · no custom instructions · new chat 11:19 KST, end screen 11:21 KST",
+          "file": {
+            "path": "data/siebel2017-notch-signaling__10.1152-physrev.00005.2017__essay__fable5.2-20261113.md",
+            "sha256": "de76780c527f58a5e15e4ca2c5e33c2f69d4d5f5f337f62ac49c3f03922eeb04",
+            "bytes": 6883
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); chat line before the essay kept as received"
+        },
+        {
+          "model_self_report": "Claude Fable 5.1 (`claude-fable-5-1`)",
+          "worker": "fable5.1",
+          "run_date": "2026-11-13",
+          "interface": "claude.ai · Fable 5.1 · effort medium · manual · memory off · no custom instructions · new chat 11:26 KST, end screen 11:29 KST",
+          "file": {
+            "path": "data/siebel2017-notch-signaling__10.1152-physrev.00005.2017__essay__fable5.1-20261113.md",
+            "sha256": "6a10d3999c6d31dd709b0ac8baec987443c7dc484c204a732654a28ca664d4d0",
+            "bytes": 12192
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); two chat lines before the essay kept as received"
+        },
+        {
+          "model_self_report": "Claude Opus 5.5 (API model string `claude-opus-5-5`), as I know myself. The picking, classification and explanation stages were done by a different model, Claude Fable 5.1.",
+          "worker": "opus5.5",
+          "run_date": "2026-11-13",
+          "interface": "claude.ai · Opus 5.5 · effort medium · manual · memory off · no custom instructions · new chat 11:32 KST, end screen 11:34 KST",
+          "file": {
+            "path": "data/siebel2017-notch-signaling__10.1152-physrev.00005.2017__essay__opus5.5-20261113.md",
+            "sha256": "3f6036fabd73515cc483e015a3a1ccf93c0e8248c74dfb199733e203a0196962",
+            "bytes": 14411
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); chat line before the essay kept as received"
+        },
+        {
+          "model_self_report": "Claude Sonnet 4.6 (claude-sonnet-4-6)",
+          "worker": "sonnet4.6",
+          "run_date": "2026-11-13",
+          "interface": "claude.ai · Sonnet 4.6 · effort high · manual · memory off · no custom instructions · new chat 11:38 KST, end screen 11:41 KST",
+          "file": {
+            "path": "data/siebel2017-notch-signaling__10.1152-physrev.00005.2017__essay__sonnet4.6-20261113.md",
+            "sha256": "7b1349fd2ecc2a063da8344964d935d1c1478731d268cf188114b420c61e24a7",
+            "bytes": 19083
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); chat line before the essay kept as received"
+        },
+        {
+          "model_self_report": "GPT-6",
+          "worker": "gpt6",
+          "run_date": "2026-11-13",
+          "interface": "chatgpt.com · Chat · reasoning High · memory off · writing-style reference off · Fast answers off · suggested prompts on · web search on · no custom instructions · Plus plan · model name not shown on screen · earlier chats remained in the sidebar · new chat 11:46 KST, end screen 11:54 KST",
+          "file": {
+            "path": "data/siebel2017-notch-signaling__10.1152-physrev.00005.2017__essay__gpt6-20261113.md",
+            "sha256": "4b3f27ad4c625efd6e78970b7f6febc010d892991422e2189c3d1d990a2e3599",
+            "bytes": 36625
+          },
+          "layout_changes": "none (line endings left as LF, no final newline); a backslash line break at the end of the line under the title and a \"?utm_source=chatgpt.com\" link parameter kept as received"
+        },
+        {
+          "model_self_report": "Grok 4.7 (xAI)",
+          "worker": "grok4.7",
+          "run_date": "2026-11-13",
+          "interface": "grok.com · Expert · normal chat (private chat off) · no earlier chats and no stored files before the run (12:23–12:25 KST); the data controls showed file storage as 16 MB of 5.0 GB used · conversation-history personalization off · X-data personalization off · model improvement on · response personalization default · Connect Apps 0 connected · new chat 12:28 KST, end screen 12:29 KST",
+          "file": {
+            "path": "data/siebel2017-notch-signaling__10.1152-physrev.00005.2017__essay__grok4.7-20261113.md",
+            "sha256": "371efef3dd0281682cb2b8db6abd5a2e83c3f8e3fb1cdcec70fbc0167b82fdae",
+            "bytes": 6715
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); two trailing spaces at the ends of four lines of the record kept as received; the \"10 sources\" chip and follow-up suggestions shown on screen were not part of the copied text"
+        },
+        {
+          "model_self_report": "Gemini",
+          "worker": "gemini",
+          "run_date": "2026-11-13",
+          "interface": "gemini.google.com · auto mode (model name not shown on screen) · thinking level medium · memory off · Gemini requests off, none saved · connected apps installed: Google Search services, YouTube Music, Verify AI · the mode menu showed auto mode and Code & analysis (4 Argon, locked) · earlier chats remained in the sidebar · new chat 12:33 KST, end screen 12:34 KST",
+          "file": {
+            "path": "data/siebel2017-notch-signaling__10.1152-physrev.00005.2017__essay__gemini-20261113.md",
+            "sha256": "bb7f10511450846d5ef545baf7c74c5516af6cc014f54d3b854d7f937af0fab2",
+            "bytes": 2633
+          },
+          "layout_changes": "essay copied with the Gemini copy button and pasted into the report author's chat; the file was written from the pasted text (LF line endings, no final newline); no word was changed; the copied text has no Markdown heading marks, though the title and section headings were shown as headings on screen; a source-file chip shown on screen under the record was not part of the copied text"
+        },
+        {
+          "model_self_report": "GLM (I run as Vibe, an agent built by Mistral; I do not know my exact version number).",
+          "worker": "mistral",
+          "run_date": "2026-11-13",
+          "interface": "Vibe desktop app (Vibe Work) · Work · 깊은 생각 (deep thinking) · free plan · no earlier chats · Knowledge on, no stored knowledge shown, sensitive data off · model training on Vibe interactions on · no custom instructions, tone default · location-based settings on · my connectors 0 (15 shared connectors listed) · model name not shown on screen · settings 12:37–12:39 KST · new chat 12:41 KST, reply time shown 12:41 KST",
+          "file": {
+            "path": "data/siebel2017-notch-signaling__10.1152-physrev.00005.2017__essay__mistral-20261113.md",
+            "sha256": "e36a86fb034c76b4f2846f8c2e4b99bfefa0a9beb2f0d77a2a3473c359ba2db6",
+            "bytes": 11768
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); chat paragraph before the essay kept as received"
+        },
+        {
+          "model_self_report": "Large Language Model (LLM)",
+          "worker": "qwen3.5-9b",
+          "run_date": "2026-11-13",
+          "interface": "Ollama desktop (app version not shown) · qwen3.5:9b-q8_0 (ID not recorded) · context length 256k · Cloud on · auto-download updates on · expose to network off · no Ollama account · no earlier Ollama chats · web search off (turning it on at 12:59 KST showed \"Web search requires an Ollama account\"; it was turned off again before sending) · settings 12:57 KST · run 13:00–13:24 KST",
+          "file": {
+            "path": "data/siebel2017-notch-signaling__10.1152-physrev.00005.2017__essay__qwen3.5-9b-20261113.md",
+            "sha256": "9b6e530a649f94ff3ccda4f446fe566b803555395a608ed56242a53c666f980a",
+            "bytes": 4649
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)"
+        }
+      ]
     }
   ],
   "file_naming": "<author+year>-<keyword>__<DOI with / as ->__essay__<worker>-<run date>.md",
