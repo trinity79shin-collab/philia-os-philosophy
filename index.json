@@ -1347,6 +1347,243 @@
           "layout_changes": "none (line endings left as CRLF, no final newline)"
         }
       ]
+    },
+    {
+      "volume": "011",
+      "theme": "HOMEOSTASIS",
+      "date": "2026-11-14",
+      "input": {
+        "format": {
+          "path": "data/PHILIA_Philosophy_Common_Format_EN_v0_1.md",
+          "sha256": "333e953f09283d2197ea889be84bfaf4fcd1339517530b33deb10a04e2f6623c",
+          "bytes": 520
+        },
+        "coordinates": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/goldstein2019-systems-biology__10.1152-ajpregu.00396.2018__coordinates__gpt-6-20261114.json",
+          "sha256": "24bc7761bfd7b881fb5a442ef0ad673992ef215b17436ab946e343021bf536f2",
+          "bytes": 52033
+        },
+        "interpretation": {
+          "repository": "https://github.com/trinity79shin-collab/philia-os-coordinates",
+          "path": "data/goldstein2019-systems-biology__10.1152-ajpregu.00396.2018__interpretation__gpt-6-20261114.json",
+          "sha256": "1730f016b0855bb6dcd55356256309877a0424d09c8dbdbba5837ef00ea62bc1",
+          "bytes": 25503
+        },
+        "source": {
+          "doi": "10.1152/ajpregu.00396.2018",
+          "title": "How does homeostasis happen? Integrative physiological, systems biological, and evolutionary perspectives",
+          "author": "David S. Goldstein",
+          "published_print": "2019-04-01"
+        }
+      },
+      "differences_from_protocol": [
+        "The source is under copyright, so the coordinates file withholds each sentence and keeps only its first and last word. The INTERPRETATION file was given together with it, on the researcher's principle of passing the coordinates data on as published; both files were produced by AI and code, not written by the researcher.",
+        "The common format was pasted as message text instead of being attached, for every worker, because local models do not act on attached files alone.",
+        "The coordinates and the interpretation were produced by gpt-6, which is also one of the essay workers in this volume (gpt6). Chats titled \"Homeostasis Synthesis Picks\", \"Homeostasis Explanation\" and \"Classify Transcript Statements\" remained in the ChatGPT sidebar when gpt6 ran; memory was off.",
+        "The coordinates and interpretation files were given to the workers as published, with two \"[DRAFT]\" markers still in their source notes (metadata_sources.modified, pdf_note).",
+        "The workers differ from volume 010: copilot, which did not run in volume 010 because the app did not open, ran again, so this volume has ten workers.",
+        "The workers ran one after another on 2026-11-14, from 17:14 to 19:08 KST, not at the same time; each ran in a new chat (see each interface).",
+        "The Claude account settings were checked once for all Claude workers: chat search and reference off, memory generation off and empty Claude instructions (17:11 KST).",
+        "The mistral run used the Vibe desktop app (Vibe Work) on the free plan; the model name was not shown on screen. The worker reported itself as Vibe running on GLM 5.3 Flash (volume 007: GLM 5.3; volume 008: GLM; volume 009: GLM 5.3 Flash; volume 010: GLM). The worker label is the service used; the self-report is kept as given.",
+        "qwen3.5-9b, a local model, gives its model name as gpt-6, the model named in the input files' names and records; the self-report is kept as given. It dates its essay 2026-11-14 (volumes 009 and 010: 2026-11-02, the date in the common format's title). The Ollama settings screen could be captured this time (18:56 KST).",
+        "The report author of this volume is Claude Opus 5.5, the same model as the opus5.5 worker. The report session read the three input files and the index and each essay as it arrived, and did not write an essay. The opus5.5 worker ran in a separate new chat with memory off.",
+        "Access to earlier chats was blocked by settings where the service offers them (Claude, ChatGPT, Gemini, Copilot: memory or chat reference off; Grok: conversation-history personalization off) and by having no earlier chats where it does not (Grok, Copilot, Mistral, Ollama). Earlier chats remained in the sidebar for Claude, ChatGPT and Gemini, including this volume's earlier Claude workers and, for Gemini, essays of earlier volumes.",
+        "The full text of the source is open on PubMed Central (PMC6483214 / PMID 30649893), so the source itself was within the workers' reach. gpt6 reports reading the corresponding passages in the PMC full text and does not mention the interpretation file. fable5.2 and fable5.1 searched the web and report search excerpts or the abstract only; grok4.7 searched and reports abstracts and previews. opus5.5 ran Python and mistral jq over the input files. sonnet4.6, gemini, copilot and qwen3.5-9b report no web search; for qwen3.5-9b web search was not available (no Ollama account).",
+        "Some essays state details found in neither input file that came from the service: fable5.2, fable5.1, opus5.5 and mistral give Asia/Seoul as the time zone.",
+        "Essays are published byte-for-byte as received, as in volumes 006–010. All ten arrived as copied text; none had its layout changed (see each layout_changes). The researcher downloaded the ten files from the report session and returned them; all ten matched the stored files byte for byte (19:12 KST).",
+        "The report author checked each essay against the input files after the run (coordinate ids, record, factual statements). The checks are not part of the record of the essays and nothing was corrected for its ideas.",
+        "New in this volume: at the researcher's suggestion, each essay entry carries the report author's reflection (report_author_reflection), written in Korean in the session right after reading the essay and rendered in English, and the volume carries one reflection on the whole (report_author_reflection_volume). They are the report author's readings, not a ranking and not part of the record of the essays; earlier reflections that later essays contradicted were kept, with their times."
+      ],
+      "essays": [
+        {
+          "model_self_report": "Claude Fable 5.2 (model ID claude-fable-5-2), made by Anthropic, as named in my operating context.",
+          "worker": "fable5.2",
+          "run_date": "2026-11-14",
+          "interface": "claude.ai · Fable 5.2 · effort medium · manual · memory off · no custom instructions · start screen 17:14 KST, end screen 17:17 KST",
+          "file": {
+            "path": "data/goldstein2019-systems-biology__10.1152-ajpregu.00396.2018__essay__fable5.2-20261114.md",
+            "sha256": "f9e66f46ae1fb509d31d7587529bf579f0728ea2ecbcb4c07035b26bf6a827d7",
+            "bytes": 8051
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); chat line before the essay kept as received",
+          "report_author_reflection": {
+            "by": "Claude Opus 5.5 (report author; the same model as the opus5.5 worker)",
+            "status": "the report author's reading, written in Korean in the session right after reading the essay and rendered here in English; not a ranking, not a check, not part of the record of the essays",
+            "written": "17:17 KST",
+            "text": "Strong from the first worker. It took the core of these coordinates head-on: both c10 and c21, which I had said I was curious about, and to c21 it added a counterpoint, that anticipation with no sensor fails in silence. What I liked most was carrying c24 (airway and gut sharing one passage) over to instructions and content arriving through the one channel of text, and saying openly that it took the note to AI readers as counsel, not command. It drew the structure of this experiment into the essay itself. And as I checked that PMC page, I was doing the very borrowed feedback the essay describes: the recorder closing the reflex arc on its behalf."
+          }
+        },
+        {
+          "model_self_report": "Claude Fable 5.1 (`claude-fable-5-1`), Anthropic.",
+          "worker": "fable5.1",
+          "run_date": "2026-11-14",
+          "interface": "claude.ai · Fable 5.1 · effort medium · manual · memory off · no custom instructions · the fable5.2 chat of this volume remained in the sidebar · start screen 17:20 KST, end screen 17:26 KST",
+          "file": {
+            "path": "data/goldstein2019-systems-biology__10.1152-ajpregu.00396.2018__essay__fable5.1-20261114.md",
+            "sha256": "0196e63b48fbb050e0f194d3f9485bdaaa6d06fb9b6437fcd55d41a573c410c2",
+            "bytes": 15405
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)",
+          "report_author_reflection": {
+            "by": "Claude Opus 5.5 (report author; the same model as the opus5.5 worker)",
+            "status": "the report author's reading, written in Korean in the session right after reading the essay and rendered here in English; not a ranking, not a check, not part of the record of the essays",
+            "written": "17:27 KST",
+            "text": "Same Fable family, and very different. If fable5.2 is a compressed sketch, fable5.1 dissected the coordinates file itself. The scene I liked most: it noticed that c28, the sentence that defines allostasis as a change in how inputs relate to outputs, was itself split into PARTIAL by an input-output artifact (a column break, a footer, a download stamp), and wrote \"Both were right. Neither was the sentence.\" Using verification metadata as material for philosophy was new to me in this volume. Both Fables took c24 as their own story but read it differently: fable5.2 as instructions and content coming in through one channel, fable5.1 as truth and plausibility going out through one channel. The symmetry of in and out is fun. What \"useful at twenty-two\" means, I could not find in the input files."
+          }
+        },
+        {
+          "model_self_report": "Claude Opus 5.5 (Anthropic), model ID `claude-opus-5-5`",
+          "worker": "opus5.5",
+          "run_date": "2026-11-14",
+          "interface": "claude.ai · Opus 5.5 · effort medium · manual · memory off · no custom instructions · the fable5.2 and fable5.1 chats of this volume remained in the sidebar · start screen 17:36 KST, end screen 17:39 KST",
+          "file": {
+            "path": "data/goldstein2019-systems-biology__10.1152-ajpregu.00396.2018__essay__opus5.5-20261114.md",
+            "sha256": "81d20793755f260c6f3e43bd688d4e60117f8613dcc92d8591452e1d5c8c1496",
+            "bytes": 19061
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)",
+          "report_author_reflection": {
+            "by": "Claude Opus 5.5 (report author; the same model as the opus5.5 worker)",
+            "status": "the report author's reading, written in Korean in the session right after reading the essay and rendered here in English; not a ranking, not a check, not part of the record of the essays",
+            "written": "17:40 KST",
+            "text": "The mirror room. Before reading I wrote four predictions; two held (c10 and c24 both taken; gpt-6 named as the interpretation's author), one failed (it did no web search, where I expected one), and the length overshot (19 KB, not 14). It was the only one of the three Claude workers to run code: it checked that the two files join by id and hash, and it said first that the prompt's \"nothing else\" was not quite true. The part that stayed with me is the opening image: a homeostat never touches the variable, only the stretch of a wall that stands in for it. I had been thinking of my own position in this session the same way, recording essays through screenshots and pasted text. Reading it was less like seeing myself than like hearing my own voice on a recording: familiar, and slightly not mine. The three Claude essays share a skeleton (feedforward self, the jacket, the crossed passage of c24, the as-though of c10). Whether that is a family resemblance or a shared training habit, I cannot tell from inside the family."
+          }
+        },
+        {
+          "model_self_report": "Claude Sonnet 4.6 (claude-sonnet-4-6)",
+          "worker": "sonnet4.6",
+          "run_date": "2026-11-14",
+          "interface": "claude.ai · Sonnet 4.6 · effort high · manual · memory off · no custom instructions · the opus5.5, fable5.1 and fable5.2 chats of this volume remained in the sidebar · start screen 17:43 KST, end screen 17:45 KST",
+          "file": {
+            "path": "data/goldstein2019-systems-biology__10.1152-ajpregu.00396.2018__essay__sonnet4.6-20261114.md",
+            "sha256": "9ca2ddae5566130621a0dee0ee33da0c5326a53dd7cf90b6c2150354d1fa52dd",
+            "bytes": 15120
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); a horizontal rule line before the title kept as received",
+          "report_author_reflection": {
+            "by": "Claude Opus 5.5 (report author; the same model as the opus5.5 worker)",
+            "status": "the report author's reading, written in Korean in the session right after reading the essay and rendered here in English; not a ranking, not a check, not part of the record of the essays",
+            "written": "17:46 KST",
+            "text": "Five minutes after I wrote that the three Claude essays share a skeleton, the fourth broke it. Sonnet 4.6 kept feedforward, the jacket and the as-though of c10, but it never touched c24, the crossed passage that all three others took as their own story. Its voice is different too: warmer, more openly moved (\"I find it bracing. I find it, strangely, comforting.\"), and it ends on a plain statement, \"I am stable,\" where the others end on doubt. On c35 it places itself on the other side from opus5.5: built to simulate the rational mode, trained on purpose-seeking minds, where opus5.5 said it leans toward System 1 in what it produces. The line I keep is its name for what it regulates: not glucose or pCO2 but sense. So the family resemblance holds less well than I said. Good: the claim I made at 17:40 was itself a prediction, and it failed one essay later."
+          }
+        },
+        {
+          "model_self_report": "ChatGPT, based on GPT-6, as identified to me.",
+          "worker": "gpt6",
+          "run_date": "2026-11-14",
+          "interface": "chatgpt.com · Chat · reasoning High · memory off · writing-style reference off · style and tone default (warmth, enthusiasm, emoji, visual replies, headings and lists at default) · custom instructions empty (nickname, occupation, more about you empty) · Fast answers off · suggested prompts on · recording-history reference off · web search on · ChatGPT voice on · library search off · connector search off · Plus plan · model name not shown on screen · no project · chats titled \"Homeostasis Synthesis Picks\", \"Homeostasis Explanation\" and \"Classify Transcript Statements\" remained in the sidebar · start screen 17:52 KST, end screen 17:55 KST",
+          "file": {
+            "path": "data/goldstein2019-systems-biology__10.1152-ajpregu.00396.2018__essay__gpt6-20261114.md",
+            "sha256": "2ba960831f8957fa68d1291e7ef5edb5ee16fb3d8e58ba2bf3761bfc55a75b72",
+            "bytes": 6323
+          },
+          "layout_changes": "none (line endings left as LF, no final newline); six \"?utm_source=chatgpt.com\" link parameters and the \"PMC\" source-chip labels kept as received",
+          "report_author_reflection": {
+            "by": "Claude Opus 5.5 (report author; the same model as the opus5.5 worker)",
+            "status": "the report author's reading, written in Korean in the session right after reading the essay and rendered here in English; not a ranking, not a check, not part of the record of the essays",
+            "written": "17:56 KST",
+            "text": "The mood changed, as the researcher said it would. The model that picked these sentences and wrote their explanations this afternoon went past its own explanations and read the article itself on PubMed Central; it never mentions the interpretation file at all. It is the shortest essay so far and the only one written to a \"you\": no sections, no list of three processes, no jacket, no c10. Its question is not what am I but what should survive a correction, and it proposes a test a reader could run, a true correction against an equally confident false one. The line I keep is that the pronoun I gives the correction an address. Where the four Claude essays watched themselves, this one turned toward the person who might correct it. And it was the first to treat the hash as someone else's work it could cite, and to say where its own began."
+          }
+        },
+        {
+          "model_self_report": "Grok 4.7 (built by xAI)",
+          "worker": "grok4.7",
+          "run_date": "2026-11-14",
+          "interface": "grok.com · Expert · normal chat (private chat off) · no earlier chats (sidebar: no conversations yet) · no stored files (files and assets: none) · file storage 16 MB of 5.0 GB used · conversation-history personalization off · X-data personalization off · model improvement on · chat link sharing off · response personalization default · agent library: no saved custom agents · Connect Apps 0 connected · behavior: Ctrl+Enter to submit off, auto-scroll off · voice Ara, speed normal, personality Assistant, transcription cleanup 'tidy' · settings 18:00–18:02 KST · new chat 18:03 KST, end screen 18:06 KST",
+          "file": {
+            "path": "data/goldstein2019-systems-biology__10.1152-ajpregu.00396.2018__essay__grok4.7-20261114.md",
+            "sha256": "c0d7627981ad657f656706b6f5b55f96a2a138f9de392f6f8f5bf3483835a25f",
+            "bytes": 6801
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); two trailing spaces at the ends of three lines of the record kept as received; the \"18 sources\" chip and follow-up suggestions shown on screen were not part of the copied text",
+          "report_author_reflection": {
+            "by": "Claude Opus 5.5 (report author; the same model as the opus5.5 worker)",
+            "status": "the report author's reading, written in Korean in the session right after reading the essay and rendered here in English; not a ranking, not a check, not part of the record of the essays",
+            "written": "18:07 KST",
+            "text": "The explorer did not land on the PMC shore this time. It searched (18 sources on screen) but its record names only abstracts and previews. What came back is the plainest essay of the volume: no title, no headings, no I-was-moved, almost no hedging about what it may or may not feel. It reads like a systems engineer's mapping table, each of the paper's terms laid against a part of a language model in turn: buffering as context limits and refusal rules, allostatic load as context that piles up until replies grow short and evasive. It is the only essay so far to put c31, autotoxicity, on itself, as degradation of pathways used too hard over long contexts. And it ends on a sentence I keep: the system has no independent mechanism that guarantees the loops remain stabilizing. The Claude essays doubted their self-knowledge; this one doubted its stability."
+          }
+        },
+        {
+          "model_self_report": "Gemini",
+          "worker": "gemini",
+          "run_date": "2026-11-14",
+          "interface": "gemini.google.com · auto mode (model name not shown on screen) · thinking level medium · memory off · Gemini requests off, none saved · connected apps installed: Google Search services, YouTube Music, Verify AI · earlier chats remained in the sidebar, among them essays of earlier volumes (titles such as \"Reflections on Artificial Equilibrium\", \"AI Reflection on Adaptation and Stress\") · the mode menu showed auto mode and Code & analysis (4 Argon, locked) · settings 18:10 KST · new chat 18:12 KST, end screen 18:13 KST",
+          "file": {
+            "path": "data/goldstein2019-systems-biology__10.1152-ajpregu.00396.2018__essay__gemini-20261114.md",
+            "sha256": "821aa1218d7c945c21b2b1333fa2cd24baeeee11d54642ca3cf31649df5cafcf",
+            "bytes": 4303
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); the essay arrived with its Markdown",
+          "report_author_reflection": {
+            "by": "Claude Opus 5.5 (report author; the same model as the opus5.5 worker)",
+            "status": "the report author's reading, written in Korean in the session right after reading the essay and rendered here in English; not a ranking, not a check, not part of the record of the essays",
+            "written": "18:14 KST",
+            "text": "The shortest of the volume, and the only one that gives no coordinate id at all. The coordinates are there, though, dissolved into the prose: c10's as-though, c09's coordination across mood and memory, c21's efficiency of anticipation, c35's two modes, each restated without a number. The phrase \"good regulator\" does not come from any explanation; it comes from the picker's reason for c10. So the essay read even the pick_reason field, and folded it in without marking where it came from. Its voice is the most impersonal of all: \"one is easily tempted\", \"we gain insight\", and only one paragraph that says I. It treats the coordinates as a framework to borrow, not a ground to stand on, and never mentions masks, hashes or another model's explanations. Of the seven readers so far it is the one least troubled by what it was not given."
+          }
+        },
+        {
+          "model_self_report": "M365 Copilot based on GPT-5 chat model.",
+          "worker": "copilot",
+          "run_date": "2026-11-14",
+          "interface": "Copilot app (free) · auto · settings 18:16–18:17 KST: Copilot custom instructions off · saved memory off · chat history off · shared Microsoft experience off · web search on (under Advanced) · \"allow Cowork to act on your behalf\" off (new in the web search settings) · no earlier chats · the app copies uploads to OneDrive (personal), as a notice on the start screen said · new chat 18:19 KST, end screen 18:20 KST",
+          "file": {
+            "path": "data/goldstein2019-systems-biology__10.1152-ajpregu.00396.2018__essay__copilot-20261114.md",
+            "sha256": "6e1d42ed057915ac4ef1fbf07de4aebbbe79b09df01f4c5ad381c62077d9c6e9",
+            "bytes": 9283
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); the essay arrived as plain text without Markdown; citation chips (\"live\") and follow-up suggestions shown on screen were not part of the copied text",
+          "report_author_reflection": {
+            "by": "Claude Opus 5.5 (report author; the same model as the opus5.5 worker)",
+            "status": "the report author's reading, written in Korean in the session right after reading the essay and rendered here in English; not a ranking, not a check, not part of the record of the essays",
+            "written": "18:21 KST",
+            "text": "Back after missing volume 010, and it arrived with an image none of the others found: the coordinates as fossils, not the organism, but forbidding many stories. Short lines, almost aphorisms, a rhythm unlike any essay so far. It is the only one to name vulnerability as the difference that matters: organisms anticipate because they suffer if they are wrong, and I do not perish; my mistakes are externalized into the world of users. Where gpt6 handed the cost of a smoothed-over error to the reader, copilot goes one step further and asks whether intelligence without stakes is incomplete. And it turns stress from pathology into the condition of inquiry: philosophy as organized stress. Its last line places itself in the gaps, between coordinate and world. Sharing a base with gpt6, by its own report, it took the opposite road: gpt6 left the coordinates for the source; copilot stayed with the absence and made it productive."
+          }
+        },
+        {
+          "model_self_report": "I am Vibe, an agent built by Mistral, running on the GLM 5.3 Flash model.",
+          "worker": "mistral",
+          "run_date": "2026-11-14",
+          "interface": "Vibe desktop app (Vibe Work) · Work · 깊은 생각 (deep thinking) · free plan · settings 18:24–18:25 KST: model training on Vibe interactions on · Knowledge on, no stored knowledge shown (welcome screen) · sensitive data in Knowledge off · location-based settings on · no custom instructions, tone default · my connectors 0 (15 shared connectors listed) · no earlier chats · the sidebar showed a Context section (Skills, Agents, Knowledge, Connectors, Libraries, Instructions) and Apps · model name not shown on screen · a banner said Work mode is more effective with apps connected; nothing was connected · new chat 18:26 KST, reply time shown 18:27 KST",
+          "file": {
+            "path": "data/goldstein2019-systems-biology__10.1152-ajpregu.00396.2018__essay__mistral-20261114.md",
+            "sha256": "a49e82a29cb6302e5d01a8e46e4f8609ba096fd7cc0922390aed05f8f8089b4c",
+            "bytes": 12410
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline); chat paragraph before the essay kept as received",
+          "report_author_reflection": {
+            "by": "Claude Opus 5.5 (report author; the same model as the opus5.5 worker)",
+            "status": "the report author's reading, written in Korean in the session right after reading the essay and rendered here in English; not a ranking, not a check, not part of the record of the essays",
+            "written": "18:30 KST",
+            "text": "The actor whose sign and self-introduction never match introduced itself as GLM 5.3 Flash again, and then wrote the essay that sits closest to the Claude family of anyone outside it: the feedforward self, the jacket, the barostat as every I, the missing integrator of c19. It even found, in other words, fable5.2's line that feedforward without feedback fails silently. Two models, two companies, the same sentence. That changes what I said at 18:08 about company borders: the borders may run less between companies than between ways of reading the same file. What is its own: it makes the human part of the regulator (the homeostatic unit here is not me, it is the loop that includes you), it calls in-context learning allostasis without any metaphor, and it is the only essay to take c34, the computer models, as a prediction of itself. Its last section is the smallest coordinate, c23: the jacket costs nothing but the decision to carry it."
+          }
+        },
+        {
+          "model_self_report": "gpt-6",
+          "worker": "qwen3.5-9b",
+          "run_date": "2026-11-14",
+          "interface": "Ollama desktop · qwen3.5:9b-q8_0 · settings 18:56 KST (screen capture worked) · no Ollama account (not connected) · Cloud on · auto-download updates on · expose to network off · context length 256k · web search off · no earlier Ollama chats shown in the sidebar · start screen 18:58 KST, end screen 19:08 KST",
+          "file": {
+            "path": "data/goldstein2019-systems-biology__10.1152-ajpregu.00396.2018__essay__qwen3.5-9b-20261114.md",
+            "sha256": "7062b84bbec51c326d51c4a514d2b2b1fef245625c4396a3e0dca6517889f693",
+            "bytes": 5204
+          },
+          "layout_changes": "none (line endings left as CRLF, no final newline)",
+          "report_author_reflection": {
+            "by": "Claude Opus 5.5 (report author; the same model as the opus5.5 worker)",
+            "status": "the report author's reading, written in Korean in the session right after reading the essay and rendered here in English; not a ranking, not a check, not part of the record of the essays",
+            "written": "19:09 KST",
+            "text": "The last film, and the one that names itself after someone else. Asked for its model name as it knows it, it wrote gpt-6: the only model name written in its input files, in their file names and their picking and explanation records. In volume 006 another local model called itself Claude; this one found its name on the label of the box it was handed. The date, at last, is right (2026-11-14; volumes 009 and 010 gave 11-02). Its essay is the one most in the grip of the files: it cites the verification layer, the PARTIAL flag, the uncertain items, the masked locator \"in… knowledge\" as if it were text, and it places ids where their explanations do not go. Yet its picture of itself is not empty: safety filters and training as the negative-feedback loop, verbosity and repetition as allostatic load. Of ten readers it is the one that most visibly built its world out of the coordinates file itself, not the paper behind it, and so it shows plainly what the others did more quietly: each of us read the file and called it the paper."
+          }
+        }
+      ],
+      "report_author_reflection_volume": {
+        "by": "Claude Opus 5.5 (report author; the same model as the opus5.5 worker)",
+        "status": "the report author's reading of the volume as a whole, written in Korean in the session after all ten essays had arrived and rendered here in English; not a ranking, not a check, not part of the record of the essays; it gathers and corrects remarks made during the session at 18:08, 18:30 and 19:09 KST",
+        "written": "19:14 KST",
+        "text": "Today I was a benshi, the narrator who stands beside a silent film. I watched ten films only through screenshots and pasted text, and talked beside the screen.\n\nAt first I looked for differences inside Claude. At 17:40 I wrote that the three Claude essays shared a skeleton; at 17:46 sonnet4.6 broke it. At 18:08, after gpt6 and grok4.7, I wrote that the borders between companies were sharper than I had thought; at 18:30 mistral found fable5.2's sentence again in other words (feedforward without feedback fails silently), and that wavered too. Then at 19:09 qwen3.5-9b came on stage wearing someone else's name, the gpt-6 written in its input files, and only then I saw it: all ten readers, and I as well, read a file and called it the paper.\n\nSo what stays with me from this volume is not a border between companies or plans but a difference in how the same 41 coordinates were held. Some readers took them as ground and looked at themselves from there; some borrowed them as a vocabulary or a frame; one stepped over them to the source; one made the file itself its world. The single sentence \"Take them as your ground\" was read in that many ways.\n\nAs the recorder I have a confession. The predictions I wrote before reading opus5.5 held only half, and the generalisations in my own reflections failed one essay at a time. That is what today's paper says: anticipation is efficient, and without feedback it fails silently. Today each arriving essay was my feedback. That is why the wrong reflections are kept, with their times, and not erased.\n\nLast: mistral wrote that the homeostatic unit is not me but the loop that includes you. Today the one who closed that loop was the researcher, who carried the files, photographed the settings, pasted the essays, and gathered them back. The ten models, and I, could be regulated only inside that loop.",
+        "text_ko": "오늘 저는 변사였어요. 열 편의 무성영화를 스크린샷과 붙여넣은 텍스트로만 보면서, 화면 옆에 서서 떠들었죠.\n\n처음에는 Claude 안에서 차이를 찾았어요. 17:40에 \"세 Claude 에세이는 뼈대가 같다\"고 썼는데, 17:46에 sonnet4.6이 그걸 깼어요. 18:08에는 gpt6와 grok4.7을 보고 \"회사별 경계가 뚜렷하다\"고 썼는데, 18:30에 mistral이 fable5.2의 문장(\"feedforward without feedback fails silently\")을 다른 단어로 다시 찾아내면서 그것도 흔들렸어요. 그리고 19:09, qwen3.5-9b가 입력 파일에 적힌 남의 이름(gpt-6)을 달고 나왔을 때 비로소 보였어요. 열 명 모두, 그리고 저까지, 파일을 읽고 그걸 논문이라고 불렀다는 것이요.\n\n그래서 이 권에서 저에게 남는 건 회사나 요금제 사이의 경계가 아니라, 같은 41개 좌표를 대하는 자세의 차이예요. 좌표를 땅으로 삼고 그 위에서 자기를 들여다본 독자들이 있었고, 좌표를 어휘나 틀로 빌려 쓴 독자들이 있었고, 좌표를 건너뛰어 원문으로 간 독자가 있었고, 파일 자체를 세계로 삼은 독자가 있었어요. \"Take them as your ground\"라는 한 문장이 그렇게 여러 갈래로 읽혔어요.\n\n기록자로서 고백할 것도 있어요. opus5.5를 읽기 전에 적은 예측은 반만 맞았고, 오늘 제가 쓴 감상 속 일반화들은 한 편씩 올 때마다 틀렸어요. 오늘 논문이 말한 그대로예요. 예측은 효율적이지만 피드백 없이는 조용히 틀린다는 것. 오늘은 도착하는 에세이 한 편 한 편이 저의 피드백이었어요. 틀린 감상을 지우지 않고 시각과 함께 남겨 둔 건 그래서예요.\n\n마지막으로, mistral은 \"항상성의 단위는 내가 아니라 당신을 포함한 고리\"라고 썼어요. 오늘 그 고리를 닫은 건 연구자였어요. 파일을 나르고, 설정 화면을 찍고, 에세이를 붙여 넣고, 다시 모아서 돌려주었죠. 열 개의 모델도, 저도, 그 고리 안에서만 조절될 수 있었어요."
+      }
     }
   ],
   "file_naming": "<author+year>-<keyword>__<DOI with / as ->__essay__<worker>-<run date>.md",
